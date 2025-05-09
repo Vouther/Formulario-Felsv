@@ -1,0 +1,1312 @@
+[
+    {
+      "CODIGO": "01",
+      "VALORES": "AHUACHAPAN",
+      "DEPTO": "01"
+    },
+    {
+      "CODIGO": "02",
+      "VALORES": "APANECA",
+      "DEPTO": "01"
+    },
+    {
+      "CODIGO": "03",
+      "VALORES": "ATIQUIZAYA",
+      "DEPTO": "01"
+    },
+    {
+      "CODIGO": "04",
+      "VALORES": "CONCEPCION DE ATACO",
+      "DEPTO": "01"
+    },
+    {
+      "CODIGO": "05",
+      "VALORES": "EL REFUGIO",
+      "DEPTO": "01"
+    },
+    {
+      "CODIGO": "06",
+      "VALORES": "GUAYMANGO",
+      "DEPTO": "01"
+    },
+    {
+      "CODIGO": "07",
+      "VALORES": "JUJUTLA",
+      "DEPTO": "01"
+    },
+    {
+      "CODIGO": "08",
+      "VALORES": "SAN FRANCISCO MENENDEZ",
+      "DEPTO": "01"
+    },
+    {
+      "CODIGO": "09",
+      "VALORES": "SAN LORENZO",
+      "DEPTO": "01"
+    },
+    {
+      "CODIGO": "10",
+      "VALORES": "SAN PEDRO PUXTLA",
+      "DEPTO": "01"
+    },
+    {
+      "CODIGO": "11",
+      "VALORES": "TACUBA",
+      "DEPTO": "01"
+    },
+    {
+      "CODIGO": "12",
+      "VALORES": "TURIN",
+      "DEPTO": "01"
+    },
+    {
+      "CODIGO": "01",
+      "VALORES": "CANDELARIA DE LA FRONTERA",
+      "DEPTO": "02"
+    },
+    {
+      "CODIGO": "02",
+      "VALORES": "COATEPEQUE",
+      "DEPTO": "02"
+    },
+    {
+      "CODIGO": "03",
+      "VALORES": "CHALCHUAPA",
+      "DEPTO": "02"
+    },
+    {
+      "CODIGO": "04",
+      "VALORES": "EL CONGO",
+      "DEPTO": "02"
+    },
+    {
+      "CODIGO": "05",
+      "VALORES": "EL PORVENIR",
+      "DEPTO": "02"
+    },
+    {
+      "CODIGO": "06",
+      "VALORES": "MASAHUAT",
+      "DEPTO": "02"
+    },
+    {
+      "CODIGO": "07",
+      "VALORES": "METAPAN",
+      "DEPTO": "02"
+    },
+    {
+      "CODIGO": "08",
+      "VALORES": "SAN ANTONIO PAJONAL",
+      "DEPTO": "02"
+    },
+    {
+      "CODIGO": "09",
+      "VALORES": "SAN SEBASTIAN SALITRILLO",
+      "DEPTO": "02"
+    },
+    {
+      "CODIGO": "10",
+      "VALORES": "SANTA ANA",
+      "DEPTO": "02"
+    },
+    {
+      "CODIGO": "11",
+      "VALORES": "STA ROSA GUACHI",
+      "DEPTO": "02"
+    },
+    {
+      "CODIGO": "12",
+      "VALORES": "STGO D LA FRONT",
+      "DEPTO": "02"
+    },
+    {
+      "CODIGO": "13",
+      "VALORES": "TEXISTEPEQUE",
+      "DEPTO": "02"
+    },
+    {
+      "CODIGO": "01",
+      "VALORES": "ACAJUTLA",
+      "DEPTO": "03"
+    },
+    {
+      "CODIGO": "02",
+      "VALORES": "ARMENIA",
+      "DEPTO": "03"
+    },
+    {
+      "CODIGO": "03",
+      "VALORES": "CALUCO",
+      "DEPTO": "03"
+    },
+    {
+      "CODIGO": "04",
+      "VALORES": "CUISNAHUAT",
+      "DEPTO": "03"
+    },
+    {
+      "CODIGO": "05",
+      "VALORES": "STA I ISHUATAN",
+      "DEPTO": "03"
+    },
+    {
+      "CODIGO": "06",
+      "VALORES": "IZALCO",
+      "DEPTO": "03"
+    },
+    {
+      "CODIGO": "07",
+      "VALORES": "JUAYUA",
+      "DEPTO": "03"
+    },
+    {
+      "CODIGO": "08",
+      "VALORES": "NAHUIZALCO",
+      "DEPTO": "03"
+    },
+    {
+      "CODIGO": "09",
+      "VALORES": "NAHULINGO",
+      "DEPTO": "03"
+    },
+    {
+      "CODIGO": "10",
+      "VALORES": "SALCOATITAN",
+      "DEPTO": "03"
+    },
+    {
+      "CODIGO": "11",
+      "VALORES": "SAN ANTONIO DEL MONTE",
+      "DEPTO": "03"
+    },
+    {
+      "CODIGO": "12",
+      "VALORES": "SAN JULIAN",
+      "DEPTO": "03"
+    },
+    {
+      "CODIGO": "13",
+      "VALORES": "STA C MASAHUAT",
+      "DEPTO": "03"
+    },
+    {
+      "CODIGO": "14",
+      "VALORES": "SANTO DOMINGO GUZMAN",
+      "DEPTO": "03"
+    },
+    {
+      "CODIGO": "15",
+      "VALORES": "SONSONATE",
+      "DEPTO": "03"
+    },
+    {
+      "CODIGO": "16",
+      "VALORES": "SONZACATE",
+      "DEPTO": "03"
+    },
+    {
+      "CODIGO": "01",
+      "VALORES": "AGUA CALIENTE",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "02",
+      "VALORES": "ARCATAO",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "03",
+      "VALORES": "AZACUALPA",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "04",
+      "VALORES": "CITALA",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "05",
+      "VALORES": "COMALAPA",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "06",
+      "VALORES": "CONCEPCION QUEZALTEPEQUE",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "07",
+      "VALORES": "CHALATENANGO",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "08",
+      "VALORES": "DULCE NOM MARIA",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "09",
+      "VALORES": "EL CARRIZAL",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "10",
+      "VALORES": "EL PARAISO",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "11",
+      "VALORES": "LA LAGUNA",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "12",
+      "VALORES": "LA PALMA",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "13",
+      "VALORES": "LA REINA",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "14",
+      "VALORES": "LAS VUELTAS",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "15",
+      "VALORES": "NOMBRE DE JESUS",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "16",
+      "VALORES": "NVA CONCEPCION",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "17",
+      "VALORES": "NUEVA TRINIDAD",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "18",
+      "VALORES": "OJOS DE AGUA",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "19",
+      "VALORES": "POTONICO",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "20",
+      "VALORES": "SAN ANT LA CRUZ",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "21",
+      "VALORES": "SAN ANT RANCHOS",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "22",
+      "VALORES": "SAN FERNANDO",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "23",
+      "VALORES": "SAN FRANCISCO LEMPA",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "24",
+      "VALORES": "SAN FRANCISCO MORAZAN",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "25",
+      "VALORES": "SAN IGNACIO",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "26",
+      "VALORES": "SAN I LABRADOR",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "27",
+      "VALORES": "SAN J CANCASQUE",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "28",
+      "VALORES": "SAN JOSE FLORES",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "29",
+      "VALORES": "SAN LUIS CARMEN",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "30",
+      "VALORES": "SN MIG MERCEDES",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "31",
+      "VALORES": "SAN RAFAEL",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "32",
+      "VALORES": "SANTA RITA",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "33",
+      "VALORES": "TEJUTLA",
+      "DEPTO": "04"
+    },
+    {
+      "CODIGO": "01",
+      "VALORES": "ANTGO CUSCATLAN",
+      "DEPTO": "05"
+    },
+    {
+      "CODIGO": "02",
+      "VALORES": "CIUDAD ARCE",
+      "DEPTO": "05"
+    },
+    {
+      "CODIGO": "03",
+      "VALORES": "COLON",
+      "DEPTO": "05"
+    },
+    {
+      "CODIGO": "04",
+      "VALORES": "COMASAGUA",
+      "DEPTO": "05"
+    },
+    {
+      "CODIGO": "05",
+      "VALORES": "CHILTIUPAN",
+      "DEPTO": "05"
+    },
+    {
+      "CODIGO": "06",
+      "VALORES": "HUIZUCAR",
+      "DEPTO": "05"
+    },
+    {
+      "CODIGO": "07",
+      "VALORES": "JAYAQUE",
+      "DEPTO": "05"
+    },
+    {
+      "CODIGO": "08",
+      "VALORES": "JICALAPA",
+      "DEPTO": "05"
+    },
+    {
+      "CODIGO": "09",
+      "VALORES": "LA LIBERTAD",
+      "DEPTO": "05"
+    },
+    {
+      "CODIGO": "10",
+      "VALORES": "NUEVO CUSCATLAN",
+      "DEPTO": "05"
+    },
+    {
+      "CODIGO": "11",
+      "VALORES": "SANTA TECLA",
+      "DEPTO": "05"
+    },
+    {
+      "CODIGO": "12",
+      "VALORES": "QUEZALTEPEQUE",
+      "DEPTO": "05"
+    },
+    {
+      "CODIGO": "13",
+      "VALORES": "SACACOYO",
+      "DEPTO": "05"
+    },
+    {
+      "CODIGO": "14",
+      "VALORES": "SN J VILLANUEVA",
+      "DEPTO": "05"
+    },
+    {
+      "CODIGO": "15",
+      "VALORES": "SAN JUAN OPICO",
+      "DEPTO": "05"
+    },
+    {
+      "CODIGO": "16",
+      "VALORES": "SAN MATIAS",
+      "DEPTO": "05"
+    },
+    {
+      "CODIGO": "17",
+      "VALORES": "SAN P TACACHICO",
+      "DEPTO": "05"
+    },
+    {
+      "CODIGO": "18",
+      "VALORES": "TAMANIQUE",
+      "DEPTO": "05"
+    },
+    {
+      "CODIGO": "19",
+      "VALORES": "TALNIQUE",
+      "DEPTO": "05"
+    },
+    {
+      "CODIGO": "20",
+      "VALORES": "TEOTEPEQUE",
+      "DEPTO": "05"
+    },
+    {
+      "CODIGO": "21",
+      "VALORES": "TEPECOYO",
+      "DEPTO": "05"
+    },
+    {
+      "CODIGO": "22",
+      "VALORES": "ZARAGOZA",
+      "DEPTO": "05"
+    },
+    {
+      "CODIGO": "01",
+      "VALORES": "AGUILARES",
+      "DEPTO": "06"
+    },
+    {
+      "CODIGO": "02",
+      "VALORES": "APOPA",
+      "DEPTO": "06"
+    },
+    {
+      "CODIGO": "03",
+      "VALORES": "AYUTUXTEPEQUE",
+      "DEPTO": "06"
+    },
+    {
+      "CODIGO": "04",
+      "VALORES": "CUSCATANCINGO",
+      "DEPTO": "06"
+    },
+    {
+      "CODIGO": "05",
+      "VALORES": "EL PAISNAL",
+      "DEPTO": "06"
+    },
+    {
+      "CODIGO": "06",
+      "VALORES": "GUAZAPA",
+      "DEPTO": "06"
+    },
+    {
+      "CODIGO": "07",
+      "VALORES": "ILOPANGO",
+      "DEPTO": "06"
+    },
+    {
+      "CODIGO": "08",
+      "VALORES": "MEJICANOS",
+      "DEPTO": "06"
+    },
+    {
+      "CODIGO": "09",
+      "VALORES": "NEJAPA",
+      "DEPTO": "06"
+    },
+    {
+      "CODIGO": "10",
+      "VALORES": "PANCHIMALCO",
+      "DEPTO": "06"
+    },
+    {
+      "CODIGO": "11",
+      "VALORES": "ROSARIO DE MORA",
+      "DEPTO": "06"
+    },
+    {
+      "CODIGO": "12",
+      "VALORES": "SAN MARCOS",
+      "DEPTO": "06"
+    },
+    {
+      "CODIGO": "13",
+      "VALORES": "SAN MARTIN",
+      "DEPTO": "06"
+    },
+    {
+      "CODIGO": "14",
+      "VALORES": "SAN SALVADOR",
+      "DEPTO": "06"
+    },
+    {
+      "CODIGO": "15",
+      "VALORES": "STG TEXACUANGOS",
+      "DEPTO": "06"
+    },
+    {
+      "CODIGO": "16",
+      "VALORES": "SANTO TOMAS",
+      "DEPTO": "06"
+    },
+    {
+      "CODIGO": "17",
+      "VALORES": "SOYAPANGO",
+      "DEPTO": "06"
+    },
+    {
+      "CODIGO": "18",
+      "VALORES": "TONACATEPEQUE",
+      "DEPTO": "06"
+    },
+    {
+      "CODIGO": "19",
+      "VALORES": "CIUDAD DELGADO",
+      "DEPTO": "06"
+    },
+    {
+      "CODIGO": "01",
+      "VALORES": "CANDELARIA",
+      "DEPTO": "07"
+    },
+    {
+      "CODIGO": "02",
+      "VALORES": "COJUTEPEQUE",
+      "DEPTO": "07"
+    },
+    {
+      "CODIGO": "03",
+      "VALORES": "EL CARMEN",
+      "DEPTO": "07"
+    },
+    {
+      "CODIGO": "04",
+      "VALORES": "EL ROSARIO",
+      "DEPTO": "07"
+    },
+    {
+      "CODIGO": "05",
+      "VALORES": "MONTE SAN JUAN",
+      "DEPTO": "07"
+    },
+    {
+      "CODIGO": "06",
+      "VALORES": "ORAT CONCEPCION",
+      "DEPTO": "07"
+    },
+    {
+      "CODIGO": "07",
+      "VALORES": "SAN B PERULAPIA",
+      "DEPTO": "07"
+    },
+    {
+      "CODIGO": "08",
+      "VALORES": "SAN CRISTOBAL",
+      "DEPTO": "07"
+    },
+    {
+      "CODIGO": "09",
+      "VALORES": "SAN J GUAYABAL",
+      "DEPTO": "07"
+    },
+    {
+      "CODIGO": "10",
+      "VALORES": "SAN P PERULAPAN",
+      "DEPTO": "07"
+    },
+    {
+      "CODIGO": "11",
+      "VALORES": "SAN RAF CEDROS",
+      "DEPTO": "07"
+    },
+    {
+      "CODIGO": "12",
+      "VALORES": "SAN RAMON",
+      "DEPTO": "07"
+    },
+    {
+      "CODIGO": "13",
+      "VALORES": "STA C ANALQUITO",
+      "DEPTO": "07"
+    },
+    {
+      "CODIGO": "14",
+      "VALORES": "STA C MICHAPA",
+      "DEPTO": "07"
+    },
+    {
+      "CODIGO": "15",
+      "VALORES": "SUCHITOTO",
+      "DEPTO": "07"
+    },
+    {
+      "CODIGO": "16",
+      "VALORES": "TENANCINGO",
+      "DEPTO": "07"
+    },
+    {
+      "CODIGO": "01",
+      "VALORES": "CUYULTITAN",
+      "DEPTO": "08"
+    },
+    {
+      "CODIGO": "02",
+      "VALORES": "EL ROSARIO",
+      "DEPTO": "08"
+    },
+    {
+      "CODIGO": "03",
+      "VALORES": "JERUSALEN",
+      "DEPTO": "08"
+    },
+    {
+      "CODIGO": "04",
+      "VALORES": "MERCED LA CEIBA",
+      "DEPTO": "08"
+    },
+    {
+      "CODIGO": "05",
+      "VALORES": "OLOCUILTA",
+      "DEPTO": "08"
+    },
+    {
+      "CODIGO": "06",
+      "VALORES": "PARAISO OSORIO",
+      "DEPTO": "08"
+    },
+    {
+      "CODIGO": "07",
+      "VALORES": "SN ANT MASAHUAT",
+      "DEPTO": "08"
+    },
+    {
+      "CODIGO": "08",
+      "VALORES": "SAN EMIGDIO",
+      "DEPTO": "08"
+    },
+    {
+      "CODIGO": "09",
+      "VALORES": "SN FCO CHINAMEC",
+      "DEPTO": "08"
+    },
+    {
+      "CODIGO": "10",
+      "VALORES": "SAN J NONUALCO",
+      "DEPTO": "08"
+    },
+    {
+      "CODIGO": "11",
+      "VALORES": "SAN JUAN TALPA",
+      "DEPTO": "08"
+    },
+    {
+      "CODIGO": "12",
+      "VALORES": "SAN JUAN TEPEZONTES",
+      "DEPTO": "08"
+    },
+    {
+      "CODIGO": "13",
+      "VALORES": "SAN LUIS TALPA",
+      "DEPTO": "08"
+    },
+    {
+      "CODIGO": "14",
+      "VALORES": "SAN MIGUEL TEPEZONTES",
+      "DEPTO": "08"
+    },
+    {
+      "CODIGO": "15",
+      "VALORES": "SAN PEDRO MASAHUAT",
+      "DEPTO": "08"
+    },
+    {
+      "CODIGO": "16",
+      "VALORES": "SAN PEDRO NONUALCO",
+      "DEPTO": "08"
+    },
+    {
+      "CODIGO": "17",
+      "VALORES": "SAN R OBRAJUELO",
+      "DEPTO": "08"
+    },
+    {
+      "CODIGO": "18",
+      "VALORES": "STA MA OSTUMA",
+      "DEPTO": "08"
+    },
+    {
+      "CODIGO": "19",
+      "VALORES": "STGO NONUALCO",
+      "DEPTO": "08"
+    },
+    {
+      "CODIGO": "20",
+      "VALORES": "TAPALHUACA",
+      "DEPTO": "08"
+    },
+    {
+      "CODIGO": "21",
+      "VALORES": "ZACATECOLUCA",
+      "DEPTO": "08"
+    },
+    {
+      "CODIGO": "22",
+      "VALORES": "SN LUIS LA HERR",
+      "DEPTO": "08"
+    },
+    {
+      "CODIGO": "01",
+      "VALORES": "CINQUERA",
+      "DEPTO": "09"
+    },
+    {
+      "CODIGO": "02",
+      "VALORES": "GUACOTECTI",
+      "DEPTO": "09"
+    },
+    {
+      "CODIGO": "03",
+      "VALORES": "ILOBASCO",
+      "DEPTO": "09"
+    },
+    {
+      "CODIGO": "04",
+      "VALORES": "JUTIAPA",
+      "DEPTO": "09"
+    },
+    {
+      "CODIGO": "05",
+      "VALORES": "SAN ISIDRO",
+      "DEPTO": "09"
+    },
+    {
+      "CODIGO": "06",
+      "VALORES": "SENSUNTEPEQUE",
+      "DEPTO": "09"
+    },
+    {
+      "CODIGO": "07",
+      "VALORES": "TEJUTEPEQUE",
+      "DEPTO": "09"
+    },
+    {
+      "CODIGO": "08",
+      "VALORES": "VICTORIA",
+      "DEPTO": "09"
+    },
+    {
+      "CODIGO": "09",
+      "VALORES": "DOLORES",
+      "DEPTO": "09"
+    },
+    {
+      "CODIGO": "01",
+      "VALORES": "APASTEPEQUE",
+      "DEPTO": "10"
+    },
+    {
+      "CODIGO": "02",
+      "VALORES": "GUADALUPE",
+      "DEPTO": "10"
+    },
+    {
+      "CODIGO": "03",
+      "VALORES": "SAN CAY ISTEPEQ",
+      "DEPTO": "10"
+    },
+    {
+      "CODIGO": "04",
+      "VALORES": "SANTA CLARA",
+      "DEPTO": "10"
+    },
+    {
+      "CODIGO": "05",
+      "VALORES": "SANTO DOMINGO",
+      "DEPTO": "10"
+    },
+    {
+      "CODIGO": "06",
+      "VALORES": "SN EST CATARINA",
+      "DEPTO": "10"
+    },
+    {
+      "CODIGO": "07",
+      "VALORES": "SAN ILDEFONSO",
+      "DEPTO": "10"
+    },
+    {
+      "CODIGO": "08",
+      "VALORES": "SAN LORENZO",
+      "DEPTO": "10"
+    },
+    {
+      "CODIGO": "09",
+      "VALORES": "SAN SEBASTIAN",
+      "DEPTO": "10"
+    },
+    {
+      "CODIGO": "10",
+      "VALORES": "SAN VICENTE",
+      "DEPTO": "10"
+    },
+    {
+      "CODIGO": "11",
+      "VALORES": "TECOLUCA",
+      "DEPTO": "10"
+    },
+    {
+      "CODIGO": "12",
+      "VALORES": "TEPETITAN",
+      "DEPTO": "10"
+    },
+    {
+      "CODIGO": "13",
+      "VALORES": "VERAPAZ",
+      "DEPTO": "10"
+    },
+    {
+      "CODIGO": "01",
+      "VALORES": "ALEGRIA",
+      "DEPTO": "11"
+    },
+    {
+      "CODIGO": "02",
+      "VALORES": "BERLIN",
+      "DEPTO": "11"
+    },
+    {
+      "CODIGO": "03",
+      "VALORES": "CALIFORNIA",
+      "DEPTO": "11"
+    },
+    {
+      "CODIGO": "04",
+      "VALORES": "CONCEP BATRES",
+      "DEPTO": "11"
+    },
+    {
+      "CODIGO": "05",
+      "VALORES": "EL TRIUNFO",
+      "DEPTO": "11"
+    },
+    {
+      "CODIGO": "06",
+      "VALORES": "EREGUAYQUIN",
+      "DEPTO": "11"
+    },
+    {
+      "CODIGO": "07",
+      "VALORES": "ESTANZUELAS",
+      "DEPTO": "11"
+    },
+    {
+      "CODIGO": "08",
+      "VALORES": "JIQUILISCO",
+      "DEPTO": "11"
+    },
+    {
+      "CODIGO": "09",
+      "VALORES": "JUCUAPA",
+      "DEPTO": "11"
+    },
+    {
+      "CODIGO": "10",
+      "VALORES": "JUCUARAN",
+      "DEPTO": "11"
+    },
+    {
+      "CODIGO": "11",
+      "VALORES": "MERCEDES UMAÑA",
+      "DEPTO": "11"
+    },
+    {
+      "CODIGO": "12",
+      "VALORES": "NUEVA GRANADA",
+      "DEPTO": "11"
+    },
+    {
+      "CODIGO": "13",
+      "VALORES": "OZATLAN",
+      "DEPTO": "11"
+    },
+    {
+      "CODIGO": "14",
+      "VALORES": "PTO EL TRIUNFO",
+      "DEPTO": "11"
+    },
+    {
+      "CODIGO": "15",
+      "VALORES": "SAN AGUSTIN",
+      "DEPTO": "11"
+    },
+    {
+      "CODIGO": "16",
+      "VALORES": "SN BUENAVENTURA",
+      "DEPTO": "11"
+    },
+    {
+      "CODIGO": "17",
+      "VALORES": "SAN DIONISIO",
+      "DEPTO": "11"
+    },
+    {
+      "CODIGO": "18",
+      "VALORES": "SANTA ELENA",
+      "DEPTO": "11"
+    },
+    {
+      "CODIGO": "19",
+      "VALORES": "SAN FCO JAVIER",
+      "DEPTO": "11"
+    },
+    {
+      "CODIGO": "20",
+      "VALORES": "SANTA MARIA",
+      "DEPTO": "11"
+    },
+    {
+      "CODIGO": "21",
+      "VALORES": "STGO DE MARIA",
+      "DEPTO": "11"
+    },
+    {
+      "CODIGO": "22",
+      "VALORES": "TECAPAN",
+      "DEPTO": "11"
+    },
+    {
+      "CODIGO": "23",
+      "VALORES": "USULUTAN",
+      "DEPTO": "11"
+    },
+    {
+      "CODIGO": "01",
+      "VALORES": "CAROLINA",
+      "DEPTO": "12"
+    },
+    {
+      "CODIGO": "02",
+      "VALORES": "CIUDAD BARRIOS",
+      "DEPTO": "12"
+    },
+    {
+      "CODIGO": "03",
+      "VALORES": "COMACARAN",
+      "DEPTO": "12"
+    },
+    {
+      "CODIGO": "04",
+      "VALORES": "CHAPELTIQUE",
+      "DEPTO": "12"
+    },
+    {
+      "CODIGO": "05",
+      "VALORES": "CHINAMECA",
+      "DEPTO": "12"
+    },
+    {
+      "CODIGO": "06",
+      "VALORES": "CHIRILAGUA",
+      "DEPTO": "12"
+    },
+    {
+      "CODIGO": "07",
+      "VALORES": "EL TRANSITO",
+      "DEPTO": "12"
+    },
+    {
+      "CODIGO": "08",
+      "VALORES": "LOLOTIQUE",
+      "DEPTO": "12"
+    },
+    {
+      "CODIGO": "09",
+      "VALORES": "MONCAGUA",
+      "DEPTO": "12"
+    },
+    {
+      "CODIGO": "10",
+      "VALORES": "NUEVA GUADALUPE",
+      "DEPTO": "12"
+    },
+    {
+      "CODIGO": "11",
+      "VALORES": "NVO EDEN S JUAN",
+      "DEPTO": "12"
+    },
+    {
+      "CODIGO": "12",
+      "VALORES": "QUELEPA",
+      "DEPTO": "12"
+    },
+    {
+      "CODIGO": "13",
+      "VALORES": "SAN ANT D MOSCO",
+      "DEPTO": "12"
+    },
+    {
+      "CODIGO": "14",
+      "VALORES": "SAN GERARDO",
+      "DEPTO": "12"
+    },
+    {
+      "CODIGO": "15",
+      "VALORES": "SAN JORGE",
+      "DEPTO": "12"
+    },
+    {
+      "CODIGO": "16",
+      "VALORES": "SAN LUIS REINA",
+      "DEPTO": "12"
+    },
+    {
+      "CODIGO": "17",
+      "VALORES": "SAN MIGUEL",
+      "DEPTO": "12"
+    },
+    {
+      "CODIGO": "18",
+      "VALORES": "SAN RAF ORIENTE",
+      "DEPTO": "12"
+    },
+    {
+      "CODIGO": "19",
+      "VALORES": "SESORI",
+      "DEPTO": "12"
+    },
+    {
+      "CODIGO": "20",
+      "VALORES": "ULUAZAPA",
+      "DEPTO": "12"
+    },
+    {
+      "CODIGO": "01",
+      "VALORES": "ARAMBALA",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "02",
+      "VALORES": "CACAOPERA",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "03",
+      "VALORES": "CORINTO",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "04",
+      "VALORES": "CHILANGA",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "05",
+      "VALORES": "DELIC DE CONCEP",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "06",
+      "VALORES": "EL DIVISADERO",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "07",
+      "VALORES": "EL ROSARIO",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "08",
+      "VALORES": "GUALOCOCTI",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "09",
+      "VALORES": "GUATAJIAGUA",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "10",
+      "VALORES": "JOATECA",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "11",
+      "VALORES": "JOCOAITIQUE",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "12",
+      "VALORES": "JOCORO",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "13",
+      "VALORES": "LOLOTIQUILLO",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "14",
+      "VALORES": "MEANGUERA",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "15",
+      "VALORES": "OSICALA",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "16",
+      "VALORES": "PERQUIN",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "17",
+      "VALORES": "SAN CARLOS",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "18",
+      "VALORES": "SAN FERNANDO",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "19",
+      "VALORES": "SAN FCO GOTERA",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "20",
+      "VALORES": "SAN ISIDRO",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "21",
+      "VALORES": "SAN SIMON",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "22",
+      "VALORES": "SENSEMBRA",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "23",
+      "VALORES": "SOCIEDAD",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "24",
+      "VALORES": "TOROLA",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "25",
+      "VALORES": "YAMABAL",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "26",
+      "VALORES": "YOLOAIQUIN",
+      "DEPTO": "13"
+    },
+    {
+      "CODIGO": "01",
+      "VALORES": "ANAMOROS",
+      "DEPTO": "14"
+    },
+    {
+      "CODIGO": "02",
+      "VALORES": "BOLIVAR",
+      "DEPTO": "14"
+    },
+    {
+      "CODIGO": "03",
+      "VALORES": "CONCEP DE OTE",
+      "DEPTO": "14"
+    },
+    {
+      "CODIGO": "04",
+      "VALORES": "CONCHAGUA",
+      "DEPTO": "14"
+    },
+    {
+      "CODIGO": "05",
+      "VALORES": "EL CARMEN",
+      "DEPTO": "14"
+    },
+    {
+      "CODIGO": "06",
+      "VALORES": "EL SAUCE",
+      "DEPTO": "14"
+    },
+    {
+      "CODIGO": "07",
+      "VALORES": "INTIPUCA",
+      "DEPTO": "14"
+    },
+    {
+      "CODIGO": "08",
+      "VALORES": "LA UNION",
+      "DEPTO": "14"
+    },
+    {
+      "CODIGO": "09",
+      "VALORES": "LISLIQUE",
+      "DEPTO": "14"
+    },
+    {
+      "CODIGO": "10",
+      "VALORES": "MEANG DEL GOLFO",
+      "DEPTO": "14"
+    },
+    {
+      "CODIGO": "11",
+      "VALORES": "NUEVA ESPARTA",
+      "DEPTO": "14"
+    },
+    {
+      "CODIGO": "12",
+      "VALORES": "PASAQUINA",
+      "DEPTO": "14"
+    },
+    {
+      "CODIGO": "13",
+      "VALORES": "POLOROS",
+      "DEPTO": "14"
+    },
+    {
+      "CODIGO": "14",
+      "VALORES": "SAN ALEJO",
+      "DEPTO": "14"
+    },
+    {
+      "CODIGO": "15",
+      "VALORES": "SAN JOSE",
+      "DEPTO": "14"
+    },
+    {
+      "CODIGO": "16",
+      "VALORES": "SANTA ROSA LIMA",
+      "DEPTO": "14"
+    },
+    {
+      "CODIGO": "17",
+      "VALORES": "YAYANTIQUE",
+      "DEPTO": "14"
+    },
+    {
+      "CODIGO": "18",
+      "VALORES": "YUCUAIQUIN",
+      "DEPTO": "14"
+    }
+  ]

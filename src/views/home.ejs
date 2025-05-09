@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulario Felsv</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Select2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+    <!-- jQuery (Select2 depende de jQuery) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Select2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+  </head>
+  <body>
+    <div class="formbold-main-wrapper">
+      <div class="formbold-form-wrapper">
+        <img src="/images/banner_odoo.png" alt="banner_odoo" style="max-width: 100%;" />
+        <form action="/register" method="POST">
+          <div class="formbold-input-radio-wrapper">
+            <label class="formbold-form-label">
+              Ambiente de trabajo
+            </label>
+
+            <div class="formbold-radio-flex">
+              <div class="formbold-radio-group">
+                <label class="formbold-radio-label">
+                  <input
+                    class="formbold-input-radio"
+                    type="radio"
+                    name="ambient"
+                    id="ambiente-prueba"
+                    value="Prueba"
+                  />
+                  Prueba
+                  <span class="formbold-radio-checkmark"></span>
+                </label>
+              </div>
+
+              <div class="formbold-radio-group">
+                <label class="formbold-radio-label">
+                  <input
+                    class="formbold-input-radio"
+                    type="radio"
+                    name="ambient"
+                    id="ambiente-produccion"
+                    value="Produccion"
+                  />
+                  Producción
+                  <span class="formbold-radio-checkmark"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="formbold-input-group">
+            <label class="formbold-form-label">Actividad</label>
+            <select class="formbold-form-select select-activity" name="occupation" id="occupation" required>
+              <option value="" disabled selected hidden>Seleccionar</option>
+              <% activities.forEach(activity => { %>
+                <option value="<%= activity.option %>"><%= activity.option %></option>
+              <% }) %>
+            </select>
+          </div>
+
+          <div class="formbold-input-group">
+            <label for="email" class="formbold-form-label"> Correo de Empresa </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Ingresar el correo electrónico"
+              class="formbold-form-input"
+            />
+          </div>
+
+          <div>
+            <label for="message" class="formbold-form-label">
+              Dirección de la empresa
+            </label>
+            <textarea
+              rows="6"
+              name="complement"
+              id="complement"
+              placeholder="Escribir la dirección completa..."
+              class="formbold-form-input"
+            ></textarea>
+          </div>
+
+          <div class="formbold-input-group">
+            <label class="formbold-form-label">Departamento</label>
+            <select class="formbold-form-select" name="department" id="department" required>
+              <option value="" disabled selected hidden>Seleccionar</option>
+              <% departments.forEach(department => { %>
+                <option value="<%= department.CODIGO %>"><%= department.VALORES %></option>
+              <% }) %>
+            </select>
+          </div>
+
+          <div class="formbold-input-group">
+            <label class="formbold-form-label">Municipio</label>
+            <select class="formbold-form-select" name="municipality" id="municipality" disabled>
+              <option value="" disabled selected hidden>Selecciona un departamento primero</option>
+            </select>
+          </div>
+
+          <div class="formbold-input-group">
+            <label for="name" class="formbold-form-label"> Clave Publica </label>
+            <input
+              type="text"
+              name="public_key"
+              id="public_key"
+              placeholder="Ingresar la clave publica"
+              class="formbold-form-input"
+            />
+          </div>
+
+          <div class="formbold-input-group">
+            <label for="name" class="formbold-form-label"> API </label>
+            <input
+              type="text"
+              name="api_key"
+              id="api_key"
+              placeholder="Ingresar la clave api"
+              class="formbold-form-input"
+            />
+          </div>
+
+          <div class="formbold-input-group">
+            <label for="name" class="formbold-form-label"> Clave Privada </label>
+            <input
+              type="text"
+              name="private_key"
+              id="private_key"
+              placeholder="Ingresar la clave privada"
+              class="formbold-form-input"
+            />
+          </div>
+
+          <div class="formbold-input-group">
+            <label for="name" class="formbold-form-label"> NIT </label>
+            <input
+              type="text"
+              name="nit"
+              id="nit"
+              placeholder="Ingresar el nit"
+              class="formbold-form-input"
+            />
+          </div>
+
+          <div class="formbold-input-group">
+            <label for="name" class="formbold-form-label"> Nombre Comercial </label>
+            <input
+              type="text"
+              name="trade_name"
+              id="trade_name"
+              placeholder="Ingresar el nombre comercial"
+              class="formbold-form-input"
+            />
+          </div>
+
+          <div class="formbold-input-group">
+            <label for="name" class="formbold-form-label"> Usuario </label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Ingresar el usuario cbii"
+              class="formbold-form-input"
+            />
+          </div>
+
+          <div class="formbold-input-group">
+            <label for="name" class="formbold-form-label"> Contraseña </label>
+            <input
+              type="text"
+              name="password"
+              id="password"
+              placeholder="Ingresar la contraseña cbii"
+              class="formbold-form-input"
+            />
+          </div>
+
+          <div class="formbold-input-group">
+            <label for="name" class="formbold-form-label"> NRC </label>
+            <input
+              type="text"
+              name="nrc"
+              id="nrc"
+              placeholder="Ingresar el nrc"
+              class="formbold-form-input"
+            />
+          </div>
+
+          <div class="formbold-input-group">
+            <label for="name" class="formbold-form-label"> Teléfono </label>
+            <input
+              type="phone"
+              name="phone"
+              id="phone"
+              placeholder="Ingresar el teléfono"
+              class="formbold-form-input"
+            />
+          </div>
+
+          <div class="formbold-input-group">
+            <label for="name" class="formbold-form-label"> Nombre de Empresa </label>
+            <input
+              type="text"
+              name="company_name"
+              id="company_name"
+              placeholder="Ingresar el nombre de la empresa"
+              class="formbold-form-input"
+            />
+          </div>
+
+          <button class="formbold-btn">Registrar Cliente</button>
+        </form>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function() {
+        $('.select-activity').select2({
+          placeholder: "Seleccionar actividad",
+          allowClear: true,
+          width: '100%'
+        });
+      });
+    </script>
+
+    <script>
+      let municipalities = [];
+      municipalities = <%- JSON.stringify(municipalities) %>;
+
+      const departmentSelect = document.getElementById('department');
+      const municipalitySelect = document.getElementById('municipality');
+
+      departmentSelect.addEventListener('change', () => {
+        const selectedDeptoCode = departmentSelect.value;
+
+        const filteredMunicipalities = municipalities.filter(
+          m => m.DEPTO === selectedDeptoCode
+        );
+
+        municipalitySelect.innerHTML = '<option value="" disabled selected hidden>Seleccionar</option>';
+
+        filteredMunicipalities.forEach(municipio => {
+          const option = document.createElement('option');
+          option.value = municipio.CODIGO;
+          option.textContent = municipio.VALORES;
+          municipalitySelect.appendChild(option);
+        });
+
+        municipalitySelect.disabled = false;
+      });
+    </script>
+
+  </body>
+</html>
