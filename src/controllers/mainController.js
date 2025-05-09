@@ -22,13 +22,13 @@ const mainController = {
           if(result.isEmpty()){
 
             const formData = req.body;
-            console.log("Cliente", formData);
+            //console.log("Cliente", formData);
 
-            // await axios.post('https://n8n.tst.consiti.com/webhook-test/b1d239c0-bb94-4034-aa35-647f56a74cd4', formData, {
-            //   headers: {
-            //     'Content-type': 'application/json; charset=UTF-8',
-            //   },
-            // });
+            await axios.post('https://n8n.tst.consiti.com/webhook-test/b1d239c0-bb94-4034-aa35-647f56a74cd4', formData, {
+              headers: {
+                'Content-type': 'application/json; charset=UTF-8',
+              },
+            });
 
             // const { data } = await axios.post('https://n8n.tst.consiti.com/webhook-test/formulario', formData, {
             //   headers: {
