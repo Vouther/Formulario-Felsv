@@ -5,7 +5,7 @@ module.exports = [
   // Ambiente: debe ser 'prueba' o 'produccion'
   body('ambient')
     .notEmpty().withMessage('El ambiente es requerido')
-    .isIn(['prueba', 'produccion']).withMessage('El ambiente debe ser "prueba" o "produccion"'),
+    .isIn(['Prueba', 'Produccion']).withMessage('El ambiente debe ser "prueba" o "produccion"'),
 
   // Ocupación
   body('occupation')

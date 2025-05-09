@@ -13,13 +13,14 @@ body {
   align-items: center;
   justify-content: center;
   padding: 48px;
+  background: #190f2c;
 }
 
 .formbold-form-wrapper {
   margin: 0 auto;
   max-width: 570px;
   width: 100%;
-  background: white;
+  background: #d1c3e7;
   padding: 40px;
 }
 

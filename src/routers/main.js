@@ -5,6 +5,6 @@ const mainController = require('../controllers/mainController');
 const validateForm = require('../middlewares/validateForm');
 
 router.get('/', mainController.homePage);
-router.post('/register', mainController.register);
+router.post('/register', validateForm, mainController.register);
 
 module.exports = router;
