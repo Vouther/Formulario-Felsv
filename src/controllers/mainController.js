@@ -3,15 +3,17 @@ const departmentsList = require('../data/departments.json');
 const municipalitiesList = require('../data/municipalities.json');
 const axios = require('axios');
 const {validationResult} = require('express-validator');
+const urlApi = process.env.URL_API;
 
 const mainController = {
     homePage: (req, res) => {
-        res.render('home', {
-            title: 'Formulario Felsv',
-            activities: activitiesList,
-            departments: departmentsList,
-            municipalities: municipalitiesList
-        });
+
+      res.render('home', {
+          title: 'Formulario Felsv',
+          activities: activitiesList,
+          departments: departmentsList,
+          municipalities: municipalitiesList
+      });
     },
 
     register: async (req, res) => {
@@ -24,13 +26,13 @@ const mainController = {
             const formData = req.body;
             //console.log("Cliente", formData);
 
-            await axios.post('https://n8n.tst.consiti.com/webhook-test/b1d239c0-bb94-4034-aa35-647f56a74cd4', formData, {
+            await axios.post(urlApi, formData, {
               headers: {
                 'Content-type': 'application/json; charset=UTF-8',
               },
             });
 
-            // const { data } = await axios.post('https://n8n.tst.consiti.com/webhook-test/formulario', formData, {
+            // const { data } = await axios.post(urlApi, formData, {
             //   headers: {
             //     'Content-type': 'application/json; charset=UTF-8',
             //   },
