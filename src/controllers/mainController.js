@@ -25,12 +25,28 @@ const mainController = {
 
             const formData = req.body;
             //console.log("Cliente", formData);
+            if(formData.ambient === 'Prueba'){
+              await axios.post(urlApi, formData, {
+                headers: {
+                  'Content-type': 'application/json; charset=UTF-8',
+                },
+              });
 
-            await axios.post(urlApi, formData, {
-              headers: {
-                'Content-type': 'application/json; charset=UTF-8',
-              },
-            });
+              return res.redirect('/');
+            }
+            else{
+              // await axios.post(urlApi, formData, {
+              //   headers: {
+              //     'Content-type': 'application/json; charset=UTF-8',
+              //   },
+              // });
+
+              // return res.redirect('/');
+              return res.status(200).json({
+                  old: req.body,
+                  message: 'Registrado correctamente',
+              })
+            }
 
             // const { data } = await axios.post(urlApi, formData, {
             //   headers: {
@@ -44,7 +60,6 @@ const mainController = {
             //   message: "Formulario procesado correctamente",
             //   apiResponse: data,
             // });
-            return res.redirect('/');
 
           } else{
 
