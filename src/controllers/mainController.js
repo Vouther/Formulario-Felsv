@@ -4,6 +4,7 @@ const municipalitiesList = require('../data/municipalities.json');
 const axios = require('axios');
 const {validationResult} = require('express-validator');
 const urlApi = process.env.URL_API;
+const urlProd = process.env.URL_PROD;
 
 const mainController = {
     homePage: (req, res) => {
@@ -42,10 +43,18 @@ const mainController = {
               // });
 
               // return res.redirect('/');
-              return res.status(200).json({
-                  old: req.body,
-                  message: 'Registrado correctamente',
-              })
+              // return res.status(200).json({
+              //     old: req.body,
+              //     message: 'Registrado correctamente',
+              // })
+
+              await axios.post(urlProd, formData, {
+                headers: {
+                  'Content-type': 'application/json; charset=UTF-8',
+                },
+              });
+
+              return res.redirect('/');
             }
 
             // const { data } = await axios.post(urlApi, formData, {

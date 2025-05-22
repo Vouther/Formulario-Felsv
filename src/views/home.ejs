@@ -58,7 +58,22 @@
             </div>
           </div>
 
-          <h2 class="formbold-form-title">Datos de la Empresa</h2>
+          <div id="db-container">
+            <h2 class="formbold-form-title subtitle">Nombre Base de Datos</h2>
+
+            <div class="formbold-input-group">
+              <label for="db_name" class="formbold-form-label"> Base de datos </label>
+              <input
+                type="text"
+                name="db_name"
+                id="db_name"
+                placeholder="Ingresar el nombre de base de datos"
+                class="formbold-form-input"
+              />
+            </div>
+          </div>
+
+          <h2 class="formbold-form-title subtitle">Datos de la Empresa</h2>
 
           <div class="formbold-input-group">
             <label for="company_name" class="formbold-form-label"> Nombre de Empresa </label>
@@ -136,7 +151,7 @@
             />
           </div>
 
-          <h2 class="formbold-form-title">Accesos CBII</h2>
+          <h2 class="formbold-form-title subtitle">Accesos CBII</h2>
 
           <div class="formbold-input-group">
             <label for="username" class="formbold-form-label"> Usuario </label>
@@ -160,7 +175,7 @@
             />
           </div>
 
-          <h2 class="formbold-form-title">Direccón</h2>
+          <h2 class="formbold-form-title subtitle">Dirección</h2>
 
           <div class="formbold-input-group">
             <label class="formbold-form-label">Departamento</label>
@@ -192,7 +207,7 @@
             ></textarea>
           </div>
 
-          <h2 class="formbold-form-title">Llaves de Seguridad</h2>
+          <h2 class="formbold-form-title subtitle">Llaves de Seguridad</h2>
 
           <div class="formbold-input-group">
             <label for="public_key" class="formbold-form-label"> Clave Publica </label>
@@ -227,7 +242,7 @@
             />
           </div>
 
-          <h2 class="formbold-form-title">Configuración SMTP</h2>
+          <h2 class="formbold-form-title subtitle">Configuración SMTP</h2>
 
           <div class="formbold-radio-group">
             <label class="formbold-radio-label">
@@ -253,7 +268,7 @@
               <input type="text" name="puerto_smtp" id="puerto_smtp" placeholder="465" class="formbold-form-input" />
             </div>
 
-            <h3 class="formbold-form-title">Secure (SSL/TLS)</h3>
+            <h3 class="formbold-form-title subtitle">Secure (SSL/TLS)</h3>
 
             <div class="formbold-input-group">
               <label for="username_smtp" class="formbold-form-label">Usuario SMTP</label>
@@ -305,6 +320,28 @@
         });
 
         municipalitySelect.disabled = false;
+      });
+    </script>
+
+    <script>
+      document.querySelectorAll('input[name="ambient"]').forEach(radio => {
+        radio.addEventListener('change', () => {
+          const dbContainer = document.getElementById('db-container');
+          const isProduccion = document.getElementById('ambiente-produccion').checked;
+
+          if (isProduccion) {
+            dbContainer.style.display = 'block';
+          } else {
+            dbContainer.style.display = 'none';
+          }
+        });
+      });
+
+      window.addEventListener('DOMContentLoaded', () => {
+        const dbContainer = document.getElementById('db-container');
+        const isProduccion = document.getElementById('ambiente-produccion').checked;
+
+        dbContainer.style.display = isProduccion ? 'block' : 'none';
       });
     </script>
 

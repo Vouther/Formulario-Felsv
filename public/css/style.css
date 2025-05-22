@@ -16,12 +16,20 @@ body {
   background: #190f2c;
 }
 
+.subtitle {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #5627c9;
+}
+
 .formbold-form-wrapper {
   margin: 0 auto;
   max-width: 570px;
   width: 100%;
   background: #d1c3e7;
   padding: 40px;
+  border-radius: 10px;
 }
 
 .formbold-form-img {
@@ -147,5 +155,6 @@ body {
   margin-top: 25px;
 }
 .formbold-btn:hover {
+  background-color: #2a1365;
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
 }
