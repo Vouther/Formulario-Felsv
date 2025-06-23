@@ -3,8 +3,11 @@ const departmentsList = require('../data/departments.json');
 const municipalitiesList = require('../data/municipalities.json');
 const axios = require('axios');
 const {validationResult} = require('express-validator');
+const jwt = require('jsonwebtoken');
 const urlApi = process.env.URL_API;
 const urlProd = process.env.URL_PROD;
+const secretTest = process.env.SECRET_TEST;
+const secretProd = process.env.SECRET_PROD;
 
 const mainController = {
     homePage: (req, res) => {
@@ -26,10 +29,28 @@ const mainController = {
 
             const formData = req.body;
             //console.log("Cliente", formData);
-            if(formData.ambient === 'Prueba'){
+            // if(formData.ambient === 'Prueba'){
+            //   await axios.post(urlApi, formData, {
+            //     headers: {
+            //       'Content-type': 'application/json; charset=UTF-8',
+            //       'Authorization': `Bearer ${token}`,
+            //     },
+            //   });
+
+            //   return res.redirect('/');
+            // }
+            if (formData.ambient === 'Prueba') {
+
+              const token = jwt.sign(
+                { user: 'registroManual', timestamp: Date.now() },
+                secretTest,
+                { expiresIn: '1d', algorithm: 'HS256' }
+              );
+
               await axios.post(urlApi, formData, {
                 headers: {
-                  'Content-type': 'application/json; charset=UTF-8',
+                  'Content-Type': 'application/json; charset=UTF-8',
+                  'Authorization': `Bearer ${token}`
                 },
               });
 
@@ -47,10 +68,16 @@ const mainController = {
               //     old: req.body,
               //     message: 'Registrado correctamente',
               // })
+              const token = jwt.sign(
+                { user: 'registroManual', timestamp: Date.now() },
+                secretProd,
+                { expiresIn: '1d', algorithm: 'HS256' }
+              );
 
               await axios.post(urlProd, formData, {
                 headers: {
                   'Content-type': 'application/json; charset=UTF-8',
+                  'Authorization': `Bearer ${token}`
                 },
               });
 
