@@ -1,16 +1,58 @@
 [
-    { "CODIGO": "01", "VALORES": "AHUACHAPAN" },
-    { "CODIGO": "02", "VALORES": "SANTA ANA" },
-    { "CODIGO": "03", "VALORES": "SONSONATE" },
-    { "CODIGO": "04", "VALORES": "CHALATENANGO" },
-    { "CODIGO": "05", "VALORES": "LA LIBERTAD" },
-    { "CODIGO": "06", "VALORES": "SAN SALVADOR" },
-    { "CODIGO": "07", "VALORES": "CUSCATLAN" },
-    { "CODIGO": "08", "VALORES": "LA PAZ" },
-    { "CODIGO": "09", "VALORES": "CABAÑAS" },
-    { "CODIGO": "10", "VALORES": "SAN VICENTE" },
-    { "CODIGO": "11", "VALORES": "USULUTAN" },
-    { "CODIGO": "12", "VALORES": "SAN MIGUEL" },
-    { "CODIGO": "13", "VALORES": "MORAZAN" },
-    { "CODIGO": "14", "VALORES": "LA UNION" }
-  ]
+  {
+    "CODIGO": "01",
+    "VALORES": "AHUACHAPÁN"
+  },
+  {
+    "CODIGO": "02",
+    "VALORES": "SANTA ANA"
+  },
+  {
+    "CODIGO": "03",
+    "VALORES": "SONSONATE"
+  },
+  {
+    "CODIGO": "04",
+    "VALORES": "CHALATENANGO"
+  },
+  {
+    "CODIGO": "05",
+    "VALORES": "LA LIBERTAD"
+  },
+  {
+    "CODIGO": "06",
+    "VALORES": "SAN SALVADOR"
+  },
+  {
+    "CODIGO": "07",
+    "VALORES": "CUSCATLÁN"
+  },
+  {
+    "CODIGO": "08",
+    "VALORES": "LA PAZ"
+  },
+  {
+    "CODIGO": "09",
+    "VALORES": "CABAÑAS"
+  },
+  {
+    "CODIGO": "10",
+    "VALORES": "SAN VICENTE"
+  },
+  {
+    "CODIGO": "11",
+    "VALORES": "USULUTÁN"
+  },
+  {
+    "CODIGO": "12",
+    "VALORES": "SAN MIGUEL"
+  },
+  {
+    "CODIGO": "13",
+    "VALORES": "MORAZÁN"
+  },
+  {
+    "CODIGO": "14",
+    "VALORES": "LA UNIÓN"
+  }
+]
