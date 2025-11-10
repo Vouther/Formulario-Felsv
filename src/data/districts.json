@@ -1,0 +1,1574 @@
+[
+  {
+    "CodDist": 3,
+    "DISTRITO": "ATIQUIZAYA",
+    "CodMuni": "13",
+    "CodDepto": "01"
+  },
+  {
+    "CodDist": 5,
+    "DISTRITO": "EL REFUGIO",
+    "CodMuni": "13",
+    "CodDepto": "01"
+  },
+  {
+    "CodDist": 9,
+    "DISTRITO": "SAN LORENZO",
+    "CodMuni": "13",
+    "CodDepto": "01"
+  },
+  {
+    "CodDist": 12,
+    "DISTRITO": "TURIN",
+    "CodMuni": "13",
+    "CodDepto": "01"
+  },
+  {
+    "CodDist": 1,
+    "DISTRITO": "AHUACHAPAN",
+    "CodMuni": "14",
+    "CodDepto": "01"
+  },
+  {
+    "CodDist": 2,
+    "DISTRITO": "APANECA",
+    "CodMuni": "14",
+    "CodDepto": "01"
+  },
+  {
+    "CodDist": 4,
+    "DISTRITO": "CONCEPCION DE ATACO",
+    "CodMuni": "14",
+    "CodDepto": "01"
+  },
+  {
+    "CodDist": 11,
+    "DISTRITO": "TACUBA",
+    "CodMuni": "14",
+    "CodDepto": "01"
+  },
+  {
+    "CodDist": 6,
+    "DISTRITO": "GUAYMANGO",
+    "CodMuni": "15",
+    "CodDepto": "01"
+  },
+  {
+    "CodDist": 7,
+    "DISTRITO": "JUJUTLA",
+    "CodMuni": "15",
+    "CodDepto": "01"
+  },
+  {
+    "CodDist": 8,
+    "DISTRITO": "SAN FRANCISCO MENENDEZ",
+    "CodMuni": "15",
+    "CodDepto": "01"
+  },
+  {
+    "CodDist": 10,
+    "DISTRITO": "SAN PEDRO PUXTLA",
+    "CodMuni": "15",
+    "CodDepto": "01"
+  },
+  {
+    "CodDist": 6,
+    "DISTRITO": "MASAHUAT",
+    "CodMuni": "14",
+    "CodDepto": "02"
+  },
+  {
+    "CodDist": 7,
+    "DISTRITO": "METAPAN",
+    "CodMuni": "14",
+    "CodDepto": "02"
+  },
+  {
+    "CodDist": 11,
+    "DISTRITO": "SANTA ROSA GUACHIPILIN",
+    "CodMuni": "14",
+    "CodDepto": "02"
+  },
+  {
+    "CodDist": 13,
+    "DISTRITO": "TEXISTEPEQUE",
+    "CodMuni": "14",
+    "CodDepto": "02"
+  },
+  {
+    "CodDist": 10,
+    "DISTRITO": "SANTA ANA",
+    "CodMuni": "15",
+    "CodDepto": "02"
+  },
+  {
+    "CodDist": 2,
+    "DISTRITO": "COATEPEQUE",
+    "CodMuni": "16",
+    "CodDepto": "02"
+  },
+  {
+    "CodDist": 4,
+    "DISTRITO": "EL CONGO",
+    "CodMuni": "16",
+    "CodDepto": "02"
+  },
+  {
+    "CodDist": 1,
+    "DISTRITO": "CANDELARIA DE LA FRONTERA",
+    "CodMuni": "17",
+    "CodDepto": "02"
+  },
+  {
+    "CodDist": 3,
+    "DISTRITO": "CHALCHUAPA",
+    "CodMuni": "17",
+    "CodDepto": "02"
+  },
+  {
+    "CodDist": 5,
+    "DISTRITO": "EL PORVENIR",
+    "CodMuni": "17",
+    "CodDepto": "02"
+  },
+  {
+    "CodDist": 8,
+    "DISTRITO": "SAN ANTONIO PAJONAL",
+    "CodMuni": "17",
+    "CodDepto": "02"
+  },
+  {
+    "CodDist": 9,
+    "DISTRITO": "SAN SEBASTIAN SALITRILLO",
+    "CodMuni": "17",
+    "CodDepto": "02"
+  },
+  {
+    "CodDist": 12,
+    "DISTRITO": "SANTIAGO DE LA FRONTERA",
+    "CodMuni": "17",
+    "CodDepto": "02"
+  },
+  {
+    "CodDist": 7,
+    "DISTRITO": "JUAYUA",
+    "CodMuni": "17",
+    "CodDepto": "03"
+  },
+  {
+    "CodDist": 8,
+    "DISTRITO": "NAHUIZALCO",
+    "CodMuni": "17",
+    "CodDepto": "03"
+  },
+  {
+    "CodDist": 10,
+    "DISTRITO": "SALCOATITAN",
+    "CodMuni": "17",
+    "CodDepto": "03"
+  },
+  {
+    "CodDist": 13,
+    "DISTRITO": "SANTA CATARINA MASAHUAT",
+    "CodMuni": "17",
+    "CodDepto": "03"
+  },
+  {
+    "CodDist": 15,
+    "DISTRITO": "SONSONATE",
+    "CodMuni": "18",
+    "CodDepto": "03"
+  },
+  {
+    "CodDist": 16,
+    "DISTRITO": "SONZACATE",
+    "CodMuni": "18",
+    "CodDepto": "03"
+  },
+  {
+    "CodDist": 9,
+    "DISTRITO": "NAHULINGO",
+    "CodMuni": "18",
+    "CodDepto": "03"
+  },
+  {
+    "CodDist": 11,
+    "DISTRITO": "SAN ANTONIO DEL MONTE",
+    "CodMuni": "18",
+    "CodDepto": "03"
+  },
+  {
+    "CodDist": 14,
+    "DISTRITO": "SANTO DOMINGO GUZMAN",
+    "CodMuni": "18",
+    "CodDepto": "03"
+  },
+  {
+    "CodDist": 2,
+    "DISTRITO": "ARMENIA",
+    "CodMuni": "19",
+    "CodDepto": "03"
+  },
+  {
+    "CodDist": 3,
+    "DISTRITO": "CALUCO",
+    "CodMuni": "19",
+    "CodDepto": "03"
+  },
+  {
+    "CodDist": 4,
+    "DISTRITO": "CUISNAHUAT",
+    "CodMuni": "19",
+    "CodDepto": "03"
+  },
+  {
+    "CodDist": 6,
+    "DISTRITO": "IZALCO",
+    "CodMuni": "19",
+    "CodDepto": "03"
+  },
+  {
+    "CodDist": 12,
+    "DISTRITO": "SAN JULIAN",
+    "CodMuni": "19",
+    "CodDepto": "03"
+  },
+  {
+    "CodDist": 5,
+    "DISTRITO": "SANTA ISABEL ISHUATAN",
+    "CodMuni": "19",
+    "CodDepto": "03"
+  },
+  {
+    "CodDist": 1,
+    "DISTRITO": "ACAJUTLA",
+    "CodMuni": "20",
+    "CodDepto": "03"
+  },
+  {
+    "CodDist": 4,
+    "DISTRITO": "CITALA",
+    "CodMuni": "34",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 12,
+    "DISTRITO": "LA PALMA",
+    "CodMuni": "34",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 25,
+    "DISTRITO": "SAN IGNACIO",
+    "CodMuni": "34",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 1,
+    "DISTRITO": "AGUA CALIENTE",
+    "CodMuni": "35",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 8,
+    "DISTRITO": "DULCE NOMBRE DE MARIA",
+    "CodMuni": "35",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 10,
+    "DISTRITO": "EL PARAISO",
+    "CodMuni": "35",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 13,
+    "DISTRITO": "LA REINA",
+    "CodMuni": "35",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 16,
+    "DISTRITO": "NUEVA CONCEPCION",
+    "CodMuni": "35",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 22,
+    "DISTRITO": "SAN FERNANDO",
+    "CodMuni": "35",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 24,
+    "DISTRITO": "SAN FRANCISCO MORAZAN",
+    "CodMuni": "35",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 31,
+    "DISTRITO": "SAN RAFAEL",
+    "CodMuni": "35",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 32,
+    "DISTRITO": "SANTA RITA",
+    "CodMuni": "35",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 33,
+    "DISTRITO": "TEJUTLA",
+    "CodMuni": "35",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 2,
+    "DISTRITO": "ARCATAO",
+    "CodMuni": "36",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 3,
+    "DISTRITO": "AZACUALPA",
+    "CodMuni": "36",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 27,
+    "DISTRITO": "CANCASQUE",
+    "CodMuni": "36",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 7,
+    "DISTRITO": "CHALATENANGO",
+    "CodMuni": "36",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 5,
+    "DISTRITO": "COMALAPA",
+    "CodMuni": "36",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 6,
+    "DISTRITO": "CONCEPCION QUEZALTEPEQUE",
+    "CodMuni": "36",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 9,
+    "DISTRITO": "EL CARRIZAL",
+    "CodMuni": "36",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 11,
+    "DISTRITO": "LA LAGUNA",
+    "CodMuni": "36",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 14,
+    "DISTRITO": "LAS VUELTAS",
+    "CodMuni": "36",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 28,
+    "DISTRITO": "LAS FLORES",
+    "CodMuni": "36",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 15,
+    "DISTRITO": "NOMBRE DE JESUS",
+    "CodMuni": "36",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 17,
+    "DISTRITO": "NUEVA TRINIDAD",
+    "CodMuni": "36",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 18,
+    "DISTRITO": "OJOS DE AGUA",
+    "CodMuni": "36",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 19,
+    "DISTRITO": "POTONICO",
+    "CodMuni": "36",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 20,
+    "DISTRITO": "SAN ANTONIO DE LA CRUZ",
+    "CodMuni": "36",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 21,
+    "DISTRITO": "SAN ANTONIO LOS RANCHOS",
+    "CodMuni": "36",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 24,
+    "DISTRITO": "SAN FRANCISCO LEMPA",
+    "CodMuni": "36",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 26,
+    "DISTRITO": "SAN ISIDRO LABRADOR",
+    "CodMuni": "36",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 29,
+    "DISTRITO": "SAN LUIS DEL CARMEN",
+    "CodMuni": "36",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 30,
+    "DISTRITO": "SAN MIGUEL DE MERCEDES",
+    "CodMuni": "36",
+    "CodDepto": "04"
+  },
+  {
+    "CodDist": 12,
+    "DISTRITO": "QUEZALTEPEQUE",
+    "CodMuni": "23",
+    "CodDepto": "05"
+  },
+  {
+    "CodDist": 16,
+    "DISTRITO": "SAN MATIAS",
+    "CodMuni": "23",
+    "CodDepto": "05"
+  },
+  {
+    "CodDist": 17,
+    "DISTRITO": "SAN PABLO TACACHICO",
+    "CodMuni": "23",
+    "CodDepto": "05"
+  },
+  {
+    "CodDist": 15,
+    "DISTRITO": "SAN JUAN OPICO",
+    "CodMuni": "24",
+    "CodDepto": "05"
+  },
+  {
+    "CodDist": 2,
+    "DISTRITO": "CIUDAD ARCE",
+    "CodMuni": "24",
+    "CodDepto": "05"
+  },
+  {
+    "CodDist": 3,
+    "DISTRITO": "COLON",
+    "CodMuni": "25",
+    "CodDepto": "05"
+  },
+  {
+    "CodDist": 7,
+    "DISTRITO": "JAYAQUE",
+    "CodMuni": "25",
+    "CodDepto": "05"
+  },
+  {
+    "CodDist": 13,
+    "DISTRITO": "SACACOYO",
+    "CodMuni": "25",
+    "CodDepto": "05"
+  },
+  {
+    "CodDist": 21,
+    "DISTRITO": "TEPECOYO",
+    "CodMuni": "25",
+    "CodDepto": "05"
+  },
+  {
+    "CodDist": 19,
+    "DISTRITO": "TALNIQUE",
+    "CodMuni": "25",
+    "CodDepto": "05"
+  },
+  {
+    "CodDist": 1,
+    "DISTRITO": "ANTGO CUSCATLAN",
+    "CodMuni": "26",
+    "CodDepto": "05"
+  },
+  {
+    "CodDist": 6,
+    "DISTRITO": "HUIZUCAR",
+    "CodMuni": "26",
+    "CodDepto": "05"
+  },
+  {
+    "CodDist": 10,
+    "DISTRITO": "NUEVO CUSCATLAN",
+    "CodMuni": "26",
+    "CodDepto": "05"
+  },
+  {
+    "CodDist": 14,
+    "DISTRITO": "SAN JOSE VILLANUEVA",
+    "CodMuni": "26",
+    "CodDepto": "05"
+  },
+  {
+    "CodDist": 22,
+    "DISTRITO": "ZARAGOZA",
+    "CodMuni": "26",
+    "CodDepto": "05"
+  },
+  {
+    "CodDist": 5,
+    "DISTRITO": "CHILTIUPAN",
+    "CodMuni": "27",
+    "CodDepto": "05"
+  },
+  {
+    "CodDist": 8,
+    "DISTRITO": "JICALAPA",
+    "CodMuni": "27",
+    "CodDepto": "05"
+  },
+  {
+    "CodDist": 9,
+    "DISTRITO": "LA LIBERTAD",
+    "CodMuni": "27",
+    "CodDepto": "05"
+  },
+  {
+    "CodDist": 18,
+    "DISTRITO": "TAMANIQUE",
+    "CodMuni": "27",
+    "CodDepto": "05"
+  },
+  {
+    "CodDist": 20,
+    "DISTRITO": "TEOTEPEQUE",
+    "CodMuni": "27",
+    "CodDepto": "05"
+  },
+  {
+    "CodDist": 11,
+    "DISTRITO": "SANTA TECLA",
+    "CodMuni": "28",
+    "CodDepto": "05"
+  },
+  {
+    "CodDist": 4,
+    "DISTRITO": "COMASAGUA",
+    "CodMuni": "28",
+    "CodDepto": "05"
+  },
+  {
+    "CodDist": 1,
+    "DISTRITO": "AGUILARES",
+    "CodMuni": "20",
+    "CodDepto": "06"
+  },
+  {
+    "CodDist": 5,
+    "DISTRITO": "EL PAISNAL",
+    "CodMuni": "20",
+    "CodDepto": "06"
+  },
+  {
+    "CodDist": 6,
+    "DISTRITO": "GUAZAPA",
+    "CodMuni": "20",
+    "CodDepto": "06"
+  },
+  {
+    "CodDist": 2,
+    "DISTRITO": "APOPA",
+    "CodMuni": "21",
+    "CodDepto": "06"
+  },
+  {
+    "CodDist": 9,
+    "DISTRITO": "NEJAPA",
+    "CodMuni": "21",
+    "CodDepto": "06"
+  },
+  {
+    "CodDist": 7,
+    "DISTRITO": "ILOPANGO",
+    "CodMuni": "22",
+    "CodDepto": "06"
+  },
+  {
+    "CodDist": 13,
+    "DISTRITO": "SAN MARTIN",
+    "CodMuni": "22",
+    "CodDepto": "06"
+  },
+  {
+    "CodDist": 17,
+    "DISTRITO": "SOYAPANGO",
+    "CodMuni": "22",
+    "CodDepto": "06"
+  },
+  {
+    "CodDist": 18,
+    "DISTRITO": "TONACATEPEQUE",
+    "CodMuni": "22",
+    "CodDepto": "06"
+  },
+  {
+    "CodDist": 3,
+    "DISTRITO": "AYUTUXTEPEQUE",
+    "CodMuni": "23",
+    "CodDepto": "06"
+  },
+  {
+    "CodDist": 8,
+    "DISTRITO": "MEJICANOS",
+    "CodMuni": "23",
+    "CodDepto": "06"
+  },
+  {
+    "CodDist": 4,
+    "DISTRITO": "CUSCATANCINGO",
+    "CodMuni": "23",
+    "CodDepto": "06"
+  },
+  {
+    "CodDist": 19,
+    "DISTRITO": "CIUDAD DELGADO",
+    "CodMuni": "23",
+    "CodDepto": "06"
+  },
+  {
+    "CodDist": 14,
+    "DISTRITO": "SAN SALVADOR",
+    "CodMuni": "23",
+    "CodDepto": "06"
+  },
+  {
+    "CodDist": 12,
+    "DISTRITO": "SAN MARCOS",
+    "CodMuni": "24",
+    "CodDepto": "06"
+  },
+  {
+    "CodDist": 16,
+    "DISTRITO": "SANTO TOMAS",
+    "CodMuni": "24",
+    "CodDepto": "06"
+  },
+  {
+    "CodDist": 15,
+    "DISTRITO": "SANTIAGO TEXACUANGOS",
+    "CodMuni": "24",
+    "CodDepto": "06"
+  },
+  {
+    "CodDist": 10,
+    "DISTRITO": "PANCHIMALCO",
+    "CodMuni": "24",
+    "CodDepto": "06"
+  },
+  {
+    "CodDist": 11,
+    "DISTRITO": "ROSARIO DE MORA",
+    "CodMuni": "24",
+    "CodDepto": "06"
+  },
+  {
+    "CodDist": 15,
+    "DISTRITO": "SUCHITOTO",
+    "CodMuni": "17",
+    "CodDepto": "07"
+  },
+  {
+    "CodDist": 9,
+    "DISTRITO": "SAN JOSE GUAYABAL",
+    "CodMuni": "17",
+    "CodDepto": "07"
+  },
+  {
+    "CodDist": 6,
+    "DISTRITO": "ORATORIO DE CONCEPCION",
+    "CodMuni": "17",
+    "CodDepto": "07"
+  },
+  {
+    "CodDist": 7,
+    "DISTRITO": "SAN BARTOLOME PERULAPIA",
+    "CodMuni": "17",
+    "CodDepto": "07"
+  },
+  {
+    "CodDist": 10,
+    "DISTRITO": "SAN PEDRO PERULAPAN",
+    "CodMuni": "17",
+    "CodDepto": "07"
+  },
+  {
+    "CodDist": 2,
+    "DISTRITO": "COJUTEPEQUE",
+    "CodMuni": "18",
+    "CodDepto": "07"
+  },
+  {
+    "CodDist": 1,
+    "DISTRITO": "CANDELARIA",
+    "CodMuni": "18",
+    "CodDepto": "07"
+  },
+  {
+    "CodDist": 3,
+    "DISTRITO": "EL CARMEN",
+    "CodMuni": "18",
+    "CodDepto": "07"
+  },
+  {
+    "CodDist": 4,
+    "DISTRITO": "EL ROSARIO",
+    "CodMuni": "18",
+    "CodDepto": "07"
+  },
+  {
+    "CodDist": 5,
+    "DISTRITO": "MONTE SAN JUAN",
+    "CodMuni": "18",
+    "CodDepto": "07"
+  },
+  {
+    "CodDist": 8,
+    "DISTRITO": "SAN CRISTOBAL",
+    "CodMuni": "18",
+    "CodDepto": "07"
+  },
+  {
+    "CodDist": 11,
+    "DISTRITO": "SAN RAFAEL CEDROS",
+    "CodMuni": "18",
+    "CodDepto": "07"
+  },
+  {
+    "CodDist": 12,
+    "DISTRITO": "SAN RAMON",
+    "CodMuni": "18",
+    "CodDepto": "07"
+  },
+  {
+    "CodDist": 13,
+    "DISTRITO": "SANTA CRUZ ANALQUITO",
+    "CodMuni": "18",
+    "CodDepto": "07"
+  },
+  {
+    "CodDist": 14,
+    "DISTRITO": "SANTA CRUZ MICHAPA",
+    "CodMuni": "18",
+    "CodDepto": "07"
+  },
+  {
+    "CodDist": 16,
+    "DISTRITO": "TENANCINGO",
+    "CodMuni": "18",
+    "CodDepto": "07"
+  },
+  {
+    "CodDist": 1,
+    "DISTRITO": "CUYULTITAN",
+    "CodMuni": "23",
+    "CodDepto": "08"
+  },
+  {
+    "CodDist": 5,
+    "DISTRITO": "OLOCUILTA",
+    "CodMuni": "23",
+    "CodDepto": "08"
+  },
+  {
+    "CodDist": 11,
+    "DISTRITO": "SAN JUAN TALPA",
+    "CodMuni": "23",
+    "CodDepto": "08"
+  },
+  {
+    "CodDist": 13,
+    "DISTRITO": "SAN LUIS TALPA",
+    "CodMuni": "23",
+    "CodDepto": "08"
+  },
+  {
+    "CodDist": 15,
+    "DISTRITO": "SAN PEDRO MASAHUAT",
+    "CodMuni": "23",
+    "CodDepto": "08"
+  },
+  {
+    "CodDist": 20,
+    "DISTRITO": "TAPALHUACA",
+    "CodMuni": "23",
+    "CodDepto": "08"
+  },
+  {
+    "CodDist": 9,
+    "DISTRITO": "SAN FRANCISCO CHINAMECA",
+    "CodMuni": "23",
+    "CodDepto": "08"
+  },
+  {
+    "CodDist": 2,
+    "DISTRITO": "EL ROSARIO",
+    "CodMuni": "24",
+    "CodDepto": "08"
+  },
+  {
+    "CodDist": 3,
+    "DISTRITO": "JERUSALEN",
+    "CodMuni": "24",
+    "CodDepto": "08"
+  },
+  {
+    "CodDist": 4,
+    "DISTRITO": "MERCEDES LA CEIBA",
+    "CodMuni": "24",
+    "CodDepto": "08"
+  },
+  {
+    "CodDist": 6,
+    "DISTRITO": "PARAISO DE OSORIO",
+    "CodMuni": "24",
+    "CodDepto": "08"
+  },
+  {
+    "CodDist": 7,
+    "DISTRITO": "SAN ANTONIO MASAHUAT",
+    "CodMuni": "24",
+    "CodDepto": "08"
+  },
+  {
+    "CodDist": 8,
+    "DISTRITO": "SAN EMIGDIO",
+    "CodMuni": "24",
+    "CodDepto": "08"
+  },
+  {
+    "CodDist": 12,
+    "DISTRITO": "SAN JUAN TEPEZONTES",
+    "CodMuni": "24",
+    "CodDepto": "08"
+  },
+  {
+    "CodDist": 22,
+    "DISTRITO": "SAN LUIS LA HERRADURA",
+    "CodMuni": "24",
+    "CodDepto": "08"
+  },
+  {
+    "CodDist": 14,
+    "DISTRITO": "SAN MIGUEL TEPEZONTES",
+    "CodMuni": "24",
+    "CodDepto": "08"
+  },
+  {
+    "CodDist": 16,
+    "DISTRITO": "SAN PEDRO NONUALCO",
+    "CodMuni": "24",
+    "CodDepto": "08"
+  },
+  {
+    "CodDist": 18,
+    "DISTRITO": "SANTA MARIA OSTUMA",
+    "CodMuni": "24",
+    "CodDepto": "08"
+  },
+  {
+    "CodDist": 19,
+    "DISTRITO": "SANTIAGO NONUALCO",
+    "CodMuni": "24",
+    "CodDepto": "08"
+  },
+  {
+    "CodDist": 10,
+    "DISTRITO": "SAN JUAN NONUALCO",
+    "CodMuni": "25",
+    "CodDepto": "08"
+  },
+  {
+    "CodDist": 17,
+    "DISTRITO": "SAN RAFAEL OBRAJUELO",
+    "CodMuni": "25",
+    "CodDepto": "08"
+  },
+  {
+    "CodDist": 21,
+    "DISTRITO": "ZACATECOLUCA",
+    "CodMuni": "25",
+    "CodDepto": "08"
+  },
+  {
+    "CodDist": 2,
+    "DISTRITO": "GUACOTECTI",
+    "CodMuni": "10",
+    "CodDepto": "09"
+  },
+  {
+    "CodDist": 5,
+    "DISTRITO": "SAN ISIDRO",
+    "CodMuni": "10",
+    "CodDepto": "09"
+  },
+  {
+    "CodDist": 6,
+    "DISTRITO": "SENSUNTEPEQUE",
+    "CodMuni": "10",
+    "CodDepto": "09"
+  },
+  {
+    "CodDist": 8,
+    "DISTRITO": "VICTORIA",
+    "CodMuni": "10",
+    "CodDepto": "09"
+  },
+  {
+    "CodDist": 9,
+    "DISTRITO": "DOLORES",
+    "CodMuni": "10",
+    "CodDepto": "09"
+  },
+  {
+    "CodDist": 1,
+    "DISTRITO": "CINQUERA",
+    "CodMuni": "11",
+    "CodDepto": "09"
+  },
+  {
+    "CodDist": 3,
+    "DISTRITO": "ILOBASCO",
+    "CodMuni": "11",
+    "CodDepto": "09"
+  },
+  {
+    "CodDist": 4,
+    "DISTRITO": "JUTIAPA",
+    "CodMuni": "11",
+    "CodDepto": "09"
+  },
+  {
+    "CodDist": 7,
+    "DISTRITO": "TEJUTEPEQUE",
+    "CodMuni": "11",
+    "CodDepto": "09"
+  },
+  {
+    "CodDist": 1,
+    "DISTRITO": "APASTEPEQUE",
+    "CodMuni": "14",
+    "CodDepto": "10"
+  },
+  {
+    "CodDist": 4,
+    "DISTRITO": "SANTA CLARA",
+    "CodMuni": "14",
+    "CodDepto": "10"
+  },
+  {
+    "CodDist": 7,
+    "DISTRITO": "SAN ILDEFONSO",
+    "CodMuni": "14",
+    "CodDepto": "10"
+  },
+  {
+    "CodDist": 6,
+    "DISTRITO": "SAN ESTEBAN CATARINA",
+    "CodMuni": "14",
+    "CodDepto": "10"
+  },
+  {
+    "CodDist": 9,
+    "DISTRITO": "SAN SEBASTIAN",
+    "CodMuni": "14",
+    "CodDepto": "10"
+  },
+  {
+    "CodDist": 8,
+    "DISTRITO": "SAN LORENZO",
+    "CodMuni": "14",
+    "CodDepto": "10"
+  },
+  {
+    "CodDist": 5,
+    "DISTRITO": "SANTO DOMINGO",
+    "CodMuni": "14",
+    "CodDepto": "10"
+  },
+  {
+    "CodDist": 10,
+    "DISTRITO": "SAN VICENTE",
+    "CodMuni": "15",
+    "CodDepto": "10"
+  },
+  {
+    "CodDist": 2,
+    "DISTRITO": "GUADALUPE",
+    "CodMuni": "15",
+    "CodDepto": "10"
+  },
+  {
+    "CodDist": 3,
+    "DISTRITO": "SAN CAYETANO ISTEPEQUE",
+    "CodMuni": "15",
+    "CodDepto": "10"
+  },
+  {
+    "CodDist": 11,
+    "DISTRITO": "TECOLUCA",
+    "CodMuni": "15",
+    "CodDepto": "10"
+  },
+  {
+    "CodDist": 12,
+    "DISTRITO": "TEPETITAN",
+    "CodMuni": "15",
+    "CodDepto": "10"
+  },
+  {
+    "CodDist": 13,
+    "DISTRITO": "VERAPAZ",
+    "CodMuni": "15",
+    "CodDepto": "10"
+  },
+  {
+    "CodDist": 1,
+    "DISTRITO": "ALEGRIA",
+    "CodMuni": "24",
+    "CodDepto": "11"
+  },
+  {
+    "CodDist": 2,
+    "DISTRITO": "BERLIN",
+    "CodMuni": "24",
+    "CodDepto": "11"
+  },
+  {
+    "CodDist": 5,
+    "DISTRITO": "EL TRIUNFO",
+    "CodMuni": "24",
+    "CodDepto": "11"
+  },
+  {
+    "CodDist": 7,
+    "DISTRITO": "ESTANZUELAS",
+    "CodMuni": "24",
+    "CodDepto": "11"
+  },
+  {
+    "CodDist": 9,
+    "DISTRITO": "JUCUAPA",
+    "CodMuni": "24",
+    "CodDepto": "11"
+  },
+  {
+    "CodDist": 11,
+    "DISTRITO": "MERCEDES UMAÑA",
+    "CodMuni": "24",
+    "CodDepto": "11"
+  },
+  {
+    "CodDist": 12,
+    "DISTRITO": "NUEVA GRANADA",
+    "CodMuni": "24",
+    "CodDepto": "11"
+  },
+  {
+    "CodDist": 16,
+    "DISTRITO": "SAN BUENAVENTURA",
+    "CodMuni": "24",
+    "CodDepto": "11"
+  },
+  {
+    "CodDist": 21,
+    "DISTRITO": "SANTIAGO DE MARIA",
+    "CodMuni": "24",
+    "CodDepto": "11"
+  },
+  {
+    "CodDist": 3,
+    "DISTRITO": "CALIFORNIA",
+    "CodMuni": "25",
+    "CodDepto": "11"
+  },
+  {
+    "CodDist": 4,
+    "DISTRITO": "CONCEPCION BATRES",
+    "CodMuni": "25",
+    "CodDepto": "11"
+  },
+  {
+    "CodDist": 6,
+    "DISTRITO": "EREGUAYQUIN",
+    "CodMuni": "25",
+    "CodDepto": "11"
+  },
+  {
+    "CodDist": 10,
+    "DISTRITO": "JUCUARAN",
+    "CodMuni": "25",
+    "CodDepto": "11"
+  },
+  {
+    "CodDist": 13,
+    "DISTRITO": "OZATLAN",
+    "CodMuni": "25",
+    "CodDepto": "11"
+  },
+  {
+    "CodDist": 18,
+    "DISTRITO": "SANTA ELENA",
+    "CodMuni": "25",
+    "CodDepto": "11"
+  },
+  {
+    "CodDist": 17,
+    "DISTRITO": "SAN DIONISIO",
+    "CodMuni": "25",
+    "CodDepto": "11"
+  },
+  {
+    "CodDist": 20,
+    "DISTRITO": "SANTA MARIA",
+    "CodMuni": "25",
+    "CodDepto": "11"
+  },
+  {
+    "CodDist": 22,
+    "DISTRITO": "TECAPAN",
+    "CodMuni": "25",
+    "CodDepto": "11"
+  },
+  {
+    "CodDist": 23,
+    "DISTRITO": "USULUTAN",
+    "CodMuni": "25",
+    "CodDepto": "11"
+  },
+  {
+    "CodDist": 8,
+    "DISTRITO": "JIQUILISCO",
+    "CodMuni": "26",
+    "CodDepto": "11"
+  },
+  {
+    "CodDist": 14,
+    "DISTRITO": "PUERTO EL TRIUNFO",
+    "CodMuni": "26",
+    "CodDepto": "11"
+  },
+  {
+    "CodDist": 15,
+    "DISTRITO": "SAN AGUSTIN",
+    "CodMuni": "26",
+    "CodDepto": "11"
+  },
+  {
+    "CodDist": 19,
+    "DISTRITO": "SAN FRANCISCO JAVIER",
+    "CodMuni": "26",
+    "CodDepto": "11"
+  },
+  {
+    "CodDist": 2,
+    "DISTRITO": "CIUDAD BARRIOS",
+    "CodMuni": "21",
+    "CodDepto": "12"
+  },
+  {
+    "CodDist": 19,
+    "DISTRITO": "SESORI",
+    "CodMuni": "21",
+    "CodDepto": "12"
+  },
+  {
+    "CodDist": 11,
+    "DISTRITO": "NUEVO EDEN DE SAN JUAN",
+    "CodMuni": "21",
+    "CodDepto": "12"
+  },
+  {
+    "CodDist": 14,
+    "DISTRITO": "SAN GERARDO",
+    "CodMuni": "21",
+    "CodDepto": "12"
+  },
+  {
+    "CodDist": 16,
+    "DISTRITO": "SAN LUIS DE LA REINA",
+    "CodMuni": "21",
+    "CodDepto": "12"
+  },
+  {
+    "CodDist": 1,
+    "DISTRITO": "CAROLINA",
+    "CodMuni": "21",
+    "CodDepto": "12"
+  },
+  {
+    "CodDist": 13,
+    "DISTRITO": "SAN ANTONIO",
+    "CodMuni": "21",
+    "CodDepto": "12"
+  },
+  {
+    "CodDist": 4,
+    "DISTRITO": "CHAPELTIQUE",
+    "CodMuni": "21",
+    "CodDepto": "12"
+  },
+  {
+    "CodDist": 17,
+    "DISTRITO": "SAN MIGUEL",
+    "CodMuni": "22",
+    "CodDepto": "12"
+  },
+  {
+    "CodDist": 3,
+    "DISTRITO": "COMACARAN",
+    "CodMuni": "22",
+    "CodDepto": "12"
+  },
+  {
+    "CodDist": 20,
+    "DISTRITO": "ULUAZAPA",
+    "CodMuni": "22",
+    "CodDepto": "12"
+  },
+  {
+    "CodDist": 9,
+    "DISTRITO": "MONCAGUA",
+    "CodMuni": "22",
+    "CodDepto": "12"
+  },
+  {
+    "CodDist": 12,
+    "DISTRITO": "QUELEPA",
+    "CodMuni": "22",
+    "CodDepto": "12"
+  },
+  {
+    "CodDist": 6,
+    "DISTRITO": "CHIRILAGUA",
+    "CodMuni": "22",
+    "CodDepto": "12"
+  },
+  {
+    "CodDist": 5,
+    "DISTRITO": "CHINAMECA",
+    "CodMuni": "23",
+    "CodDepto": "12"
+  },
+  {
+    "CodDist": 7,
+    "DISTRITO": "EL TRANSITO",
+    "CodMuni": "23",
+    "CodDepto": "12"
+  },
+  {
+    "CodDist": 8,
+    "DISTRITO": "LOLOTIQUE",
+    "CodMuni": "23",
+    "CodDepto": "12"
+  },
+  {
+    "CodDist": 10,
+    "DISTRITO": "NUEVA GUADALUPE",
+    "CodMuni": "23",
+    "CodDepto": "12"
+  },
+  {
+    "CodDist": 15,
+    "DISTRITO": "SAN JORGE",
+    "CodMuni": "23",
+    "CodDepto": "12"
+  },
+  {
+    "CodDist": 18,
+    "DISTRITO": "SAN RAFAEL ORIENTE",
+    "CodMuni": "23",
+    "CodDepto": "12"
+  },
+  {
+    "CodDist": 1,
+    "DISTRITO": "ARAMBALA",
+    "CodMuni": "27",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 2,
+    "DISTRITO": "CACAOPERA",
+    "CodMuni": "27",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 3,
+    "DISTRITO": "CORINTO",
+    "CodMuni": "27",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 7,
+    "DISTRITO": "EL ROSARIO",
+    "CodMuni": "27",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 10,
+    "DISTRITO": "JOATECA",
+    "CodMuni": "27",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 11,
+    "DISTRITO": "JOCOAITIQUE",
+    "CodMuni": "27",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 14,
+    "DISTRITO": "MEANGUERA",
+    "CodMuni": "27",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 16,
+    "DISTRITO": "PERQUIN",
+    "CodMuni": "27",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 18,
+    "DISTRITO": "SAN FERNANDO",
+    "CodMuni": "27",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 20,
+    "DISTRITO": "SAN ISIDRO",
+    "CodMuni": "27",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 24,
+    "DISTRITO": "TOROLA",
+    "CodMuni": "27",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 4,
+    "DISTRITO": "CHILANGA",
+    "CodMuni": "28",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 5,
+    "DISTRITO": "DELICIAS DE CONCEPCION",
+    "CodMuni": "28",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 6,
+    "DISTRITO": "EL DIVISADERO",
+    "CodMuni": "28",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 8,
+    "DISTRITO": "GUALOCOCTI",
+    "CodMuni": "28",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 9,
+    "DISTRITO": "GUATAJIAGUA",
+    "CodMuni": "28",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 12,
+    "DISTRITO": "JOCORO",
+    "CodMuni": "28",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 13,
+    "DISTRITO": "LOLOTIQUILLO",
+    "CodMuni": "28",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 15,
+    "DISTRITO": "OSICALA",
+    "CodMuni": "28",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 17,
+    "DISTRITO": "SAN CARLOS",
+    "CodMuni": "28",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 19,
+    "DISTRITO": "SAN FRANCISCO GOTERA",
+    "CodMuni": "28",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 21,
+    "DISTRITO": "SAN SIMON",
+    "CodMuni": "28",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 22,
+    "DISTRITO": "SENSEMBRA",
+    "CodMuni": "28",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 23,
+    "DISTRITO": "SOCIEDAD",
+    "CodMuni": "28",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 25,
+    "DISTRITO": "YAMABAL",
+    "CodMuni": "28",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 26,
+    "DISTRITO": "YOLOAIQUIN",
+    "CodMuni": "28",
+    "CodDepto": "13"
+  },
+  {
+    "CodDist": 1,
+    "DISTRITO": "ANAMOROS",
+    "CodMuni": "19",
+    "CodDepto": "14"
+  },
+  {
+    "CodDist": 2,
+    "DISTRITO": "BOLIVAR",
+    "CodMuni": "19",
+    "CodDepto": "14"
+  },
+  {
+    "CodDist": 3,
+    "DISTRITO": "CONCEPCION DE ORIENTE",
+    "CodMuni": "19",
+    "CodDepto": "14"
+  },
+  {
+    "CodDist": 6,
+    "DISTRITO": "EL SAUCE",
+    "CodMuni": "19",
+    "CodDepto": "14"
+  },
+  {
+    "CodDist": 9,
+    "DISTRITO": "LISLIQUE",
+    "CodMuni": "19",
+    "CodDepto": "14"
+  },
+  {
+    "CodDist": 11,
+    "DISTRITO": "NUEVA ESPARTA",
+    "CodMuni": "19",
+    "CodDepto": "14"
+  },
+  {
+    "CodDist": 12,
+    "DISTRITO": "PASAQUINA",
+    "CodMuni": "19",
+    "CodDepto": "14"
+  },
+  {
+    "CodDist": 13,
+    "DISTRITO": "POLOROS",
+    "CodMuni": "19",
+    "CodDepto": "14"
+  },
+  {
+    "CodDist": 15,
+    "DISTRITO": "SAN JOSE",
+    "CodMuni": "19",
+    "CodDepto": "14"
+  },
+  {
+    "CodDist": 16,
+    "DISTRITO": "SANTA ROSA DE LIMA",
+    "CodMuni": "19",
+    "CodDepto": "14"
+  },
+  {
+    "CodDist": 4,
+    "DISTRITO": "CONCHAGUA",
+    "CodMuni": "20",
+    "CodDepto": "14"
+  },
+  {
+    "CodDist": 5,
+    "DISTRITO": "EL CARMEN",
+    "CodMuni": "20",
+    "CodDepto": "14"
+  },
+  {
+    "CodDist": 7,
+    "DISTRITO": "INTIPUCA",
+    "CodMuni": "20",
+    "CodDepto": "14"
+  },
+  {
+    "CodDist": 8,
+    "DISTRITO": "LA UNION",
+    "CodMuni": "20",
+    "CodDepto": "14"
+  },
+  {
+    "CodDist": 10,
+    "DISTRITO": "MEANGUERA DEL GOLFO",
+    "CodMuni": "20",
+    "CodDepto": "14"
+  },
+  {
+    "CodDist": 14,
+    "DISTRITO": "SAN ALEJO",
+    "CodMuni": "20",
+    "CodDepto": "14"
+  },
+  {
+    "CodDist": 17,
+    "DISTRITO": "YAYANTIQUE",
+    "CodMuni": "20",
+    "CodDepto": "14"
+  },
+  {
+    "CodDist": 18,
+    "DISTRITO": "YUCUAIQUIN",
+    "CodMuni": "20",
+    "CodDepto": "14"
+  }
+]

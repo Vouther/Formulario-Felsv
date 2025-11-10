@@ -1,6 +1,7 @@
 const activitiesList = require('../data/activities.json');
 const departmentsList = require('../data/departments.json');
 const municipalitiesList = require('../data/municipalities.json');
+const distritsList = require('../data/districts.json');
 const axios = require('axios');
 const {validationResult} = require('express-validator');
 const jwt = require('jsonwebtoken');
@@ -16,7 +17,9 @@ const mainController = {
           title: 'Formulario Felsv',
           activities: activitiesList,
           departments: departmentsList,
-          municipalities: municipalitiesList
+          municipalities: municipalitiesList,
+          districts: distritsList,
+          data: {}, message: null
       });
     },
 
@@ -54,7 +57,13 @@ const mainController = {
                 },
               });
 
-              return res.redirect('/');
+              //return res.redirect('/');
+              return res.render('home', {title: 'Formulario Felsv',
+                    activities: activitiesList,
+                    departments: departmentsList,
+                    municipalities: municipalitiesList,
+                    districts: distritsList,
+                    data: req.body, message: 'Registrado correctamente' });
             }
             else{
               // await axios.post(urlApi, formData, {
@@ -81,7 +90,13 @@ const mainController = {
                 },
               });
 
-              return res.redirect('/');
+              //return res.redirect('/');
+              return res.render('home', {title: 'Formulario Felsv',
+                    activities: activitiesList,
+                    departments: departmentsList,
+                    municipalities: municipalitiesList,
+                    districts: distritsList,
+                    data: req.body, message: 'Registrado correctamente' });
             }
 
             // const { data } = await axios.post(urlApi, formData, {

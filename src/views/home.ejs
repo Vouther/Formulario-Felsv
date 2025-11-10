@@ -1,27 +1,97 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Formulario Felsv</title>
-    <link rel="stylesheet" href="/css/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formulario Felsv</title>
 
-    <!-- Select2 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css" />
 
-    <!-- jQuery (Select2 depende de jQuery) -->
+     <!-- Favicon -->
+    <link rel="apple-touch-icon" href="/images/iconoForm.png" />
+    <link rel="icon" sizes="192x192" href="/images/iconoForm.png" />
+
+
+    <!-- Semantic UI desde CDN (Fomantic UI es la versión mantenida) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.2/dist/semantic.min.css"
+    />
+
+    <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <!-- Select2 JS -->
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-
+    <!-- Semantic UI JS -->
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.2/dist/semantic.min.js"></script>
   </head>
+
   <body>
     <div class="formbold-main-wrapper">
       <div class="formbold-form-wrapper">
+
         <img src="/images/banner_odoo.png" alt="banner_odoo" style="max-width: 100%;" />
-        <h1 class="formbold-form-title">Formulario de Registro</h1>
+
+        <div class="ui fluid large text menu">
+          <h1 class="formbold-form-title">Formulario de Registro</h1>
+
+          <div class="right menu">
+            <div class="ui dropdown icon item">
+              <button class="circular ui icon violet button">
+                <i class="icon settings"></i>
+              </button>
+              <div class="menu">
+                <div class="item">
+                  <i class="dropdown icon"></i>
+                  <span class="text">Formularios</span>
+                  <div class="menu">
+                    <a class="item"
+                      href="https://n8n.tst.consiti.com/form/b3c8c05e-a3e2-4f2b-a287-640ac09abf84"
+                      target="_blank"
+                      rel="noopener noreferrer">
+                      Upload Files - TST
+                    </a>
+                    <a class="item"
+                      href="https://n8n.tst.consiti.com/form/pruebas"
+                      target="_blank"
+                      rel="noopener noreferrer">
+                      Formulario Pruebas
+                    </a>
+                    <a class="item"
+                      href="https://n8n.tst.consiti.com/form/templates"
+                      target="_blank"
+                      rel="noopener noreferrer">
+                      Upload Files - Producción
+                    </a>
+                    <a class="item"
+                      href="https://n8n.tst.consiti.com/form/send-email-prod"
+                      target="_blank"
+                      rel="noopener noreferrer">
+                      Entrega Ambiente PROD
+                    </a>
+                  </div>
+                </div>
+                <a class="item"
+                      href="/">
+                      Nuevo...
+                    </a>
+                <div class="item">Guardar...</div>
+                <div class="item">Editar...</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <% if (message) { %>
+          <div class="ui success message">
+            <i class="close icon"></i>
+            <div class="header">
+              <%= message %>
+            </div>
+          </div>
+        <% } %>
+
         <form id="registro-form" action="/register" method="POST">
+
           <div class="formbold-input-radio-wrapper">
             <label class="formbold-form-label">
               Ambiente de trabajo
@@ -36,6 +106,7 @@
                     name="ambient"
                     id="ambiente-prueba"
                     value="Prueba"
+                    <%= (data && data.ambient === 'Prueba') ? 'checked' : '' %>
                   />
                   Prueba
                   <span class="formbold-radio-checkmark"></span>
@@ -50,6 +121,7 @@
                     name="ambient"
                     id="ambiente-produccion"
                     value="Produccion"
+                    <%= (data && data.ambient === 'Produccion') ? 'checked' : '' %>
                   />
                   Producción
                   <span class="formbold-radio-checkmark"></span>
@@ -67,6 +139,7 @@
                 type="text"
                 name="db_name"
                 id="db_name"
+                value="<%= (data && data.db_name) ? data.db_name : '' %>"
                 placeholder="Ingresar el nombre de base de datos"
                 class="formbold-form-input"
               />
@@ -77,13 +150,22 @@
 
           <div class="formbold-input-group">
             <label for="company_name" class="formbold-form-label"> Nombre de Empresa </label>
-            <input
-              type="text"
-              name="company_name"
-              id="company_name"
-              placeholder="Ingresar el nombre de la empresa"
-              class="formbold-form-input"
-            />
+
+            <div class="ui fluid large action input">
+              <input
+                type="text"
+                name="company_name"
+                id="company_name"
+                value="<%= (data && data.company_name) ? data.company_name : '' %>"
+                placeholder="Ingresar el nombre de la empresa"
+                class="formbold-form-input"
+              />
+              <button class="ui violet right labeled icon button btn-copy">
+                <i class="copy icon"></i>
+                Copiar
+              </button>
+            </div>
+
           </div>
 
           <div class="formbold-input-group">
@@ -92,20 +174,31 @@
               type="text"
               name="trade_name"
               id="trade_name"
+              value="<%= (data && data.trade_name) ? data.trade_name : '' %>"
               placeholder="Ingresar el nombre comercial"
               class="formbold-form-input"
             />
           </div>
 
           <div class="formbold-input-group">
+
             <label for="nit" class="formbold-form-label"> NIT </label>
-            <input
-              type="text"
-              name="nit"
-              id="nit"
-              placeholder="Ingresar el nit"
-              class="formbold-form-input"
-            />
+
+            <div class="ui fluid large action input">
+              <input
+                type="text"
+                name="nit"
+                id="nit"
+                value="<%= (data && data.nit) ? data.nit : '' %>"
+                placeholder="Ingresar el nit"
+                class="formbold-form-input"
+              />
+              <button class="ui violet right labeled icon button btn-copy">
+                <i class="copy icon"></i>
+                Copiar
+              </button>
+            </div>
+
           </div>
 
           <div class="formbold-input-group">
@@ -114,6 +207,7 @@
               type="text"
               name="nrc"
               id="nrc"
+              value="<%= (data && data.nrc) ? data.nrc : '' %>"
               placeholder="Ingresar el nrc"
               class="formbold-form-input"
             />
@@ -121,31 +215,47 @@
 
           <div class="formbold-input-group">
             <label class="formbold-form-label">Actividad</label>
-            <select class="formbold-form-select select-activity" name="occupation" id="occupation" required>
-              <option value="" disabled selected hidden>Seleccionar</option>
+
+            <select class="ui fluid large search selection dropdown" name="occupation" id="occupation" required>
+              <option value="" disabled <%= !data || !data.occupation ? 'selected' : '' %> hidden>Seleccionar</option>
               <% activities.forEach(activity => { %>
-                <option value="<%= activity.option %>"><%= activity.option %></option>
+                <option
+                  value="<%= activity.option %>"
+                  <%= (data && data.occupation === activity.option) ? 'selected' : '' %>>
+                  <%= activity.option %>
+                </option>
               <% }) %>
             </select>
           </div>
 
           <div class="formbold-input-group">
+
             <label for="email" class="formbold-form-label"> Correo de Empresa </label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Ingresar el correo electrónico"
-              class="formbold-form-input"
-            />
+
+            <div class="ui fluid large action input">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                value="<%= (data && data.email) ? data.email : '' %>"
+                placeholder="Ingresar el correo electrónico"
+                class="formbold-form-input"
+              />
+              <button class="ui violet right labeled icon button btn-copy">
+                <i class="copy icon"></i>
+                Copiar
+              </button>
+            </div>
+
           </div>
 
-           <div class="formbold-input-group">
+          <div class="formbold-input-group">
             <label for="phone" class="formbold-form-label"> Teléfono </label>
             <input
               type="phone"
               name="phone"
               id="phone"
+              value="<%= (data && data.phone) ? data.phone : '' %>"
               placeholder="Ingresar el teléfono"
               class="formbold-form-input"
             />
@@ -155,42 +265,84 @@
 
           <div class="formbold-input-group">
             <label for="username" class="formbold-form-label"> Usuario </label>
-            <input
-              type="text"
-              name="username"
-              id="username"
-              placeholder="Ingresar el usuario cbii"
-              class="formbold-form-input"
-            />
+
+            <div class="ui fluid large action input">
+              <input
+                type="text"
+                name="username"
+                id="username"
+                value="<%= (data && data.username) ? data.username : '' %>"
+                placeholder="Ingresar el usuario cbii"
+                class="formbold-form-input"
+              />
+              <button class="ui violet right labeled icon button btn-copy">
+                <i class="copy icon"></i>
+                Copiar
+              </button>
+            </div>
+
           </div>
 
           <div class="formbold-input-group">
             <label for="password" class="formbold-form-label"> Contraseña </label>
-            <input
-              type="text"
-              name="password"
-              id="password"
-              placeholder="Ingresar la contraseña cbii"
-              class="formbold-form-input"
-            />
+
+            <div class="ui fluid large action input">
+              <input
+                type="text"
+                name="password"
+                id="password"
+                value="<%= (data && data.password) ? data.password : '' %>"
+                placeholder="Ingresar la contraseña cbii"
+                class="formbold-form-input"
+              />
+              <button class="ui violet right labeled icon button btn-copy">
+                <i class="copy icon"></i>
+                Copiar
+              </button>
+            </div>
           </div>
 
           <h2 class="formbold-form-title subtitle">Dirección</h2>
 
           <div class="formbold-input-group">
-            <label class="formbold-form-label">Departamento</label>
-            <select class="formbold-form-select" name="department" id="department" required>
-              <option value="" disabled selected hidden>Seleccionar</option>
-              <% departments.forEach(department => { %>
-                <option value="<%= department.CODIGO %>"><%= department.VALORES %></option>
+            <label class="formbold-form-label">Distrito</label>
+            <select class="ui fluid large search selection dropdown" name="district" id="district" required>
+              <option value="" disabled <%= !data || !data.district ? 'selected' : '' %> hidden>Seleccionar</option>
+              <% districts.forEach(district => { %>
+                <option
+                  value="<%= district.DISTRITO %>"
+                  <%= (data && data.district === district.DISTRITO) ? 'selected' : '' %>>
+                  <%= district.DISTRITO %>
+                </option>
               <% }) %>
             </select>
           </div>
 
           <div class="formbold-input-group">
             <label class="formbold-form-label">Municipio</label>
-            <select class="formbold-form-select" name="municipality" id="municipality" disabled>
-              <option value="" disabled selected hidden>Selecciona un departamento primero</option>
+            <select class="ui fluid large search selection dropdown" name="municipality" id="municipality" required>
+              <option value="" disabled <%= !data || !data.municipality ? 'selected' : '' %> hidden>Seleccionar</option>
+              <% municipalities.forEach(municipality => { %>
+                <option
+                  value="<%= municipality.CODIGO %>"
+                  <%= (data && data.municipality === municipality.CODIGO) ? 'selected' : '' %>>
+                  <%= municipality.VALORES %>
+                </option>
+              <% }) %>
+            </select>
+          </div>
+
+          <div class="formbold-input-group">
+            <label class="formbold-form-label">Departamento</label>
+            <select class="ui fluid large search selection dropdown" name="department" id="department" required>
+              <option value="" disabled <%= !data || !data.department ? 'selected' : '' %> hidden>Seleccionar</option>
+              <% departments.forEach(department => { %>
+                <option
+                  value="<%= department.CODIGO %>"
+                  <%= (data && data.department === department.CODIGO) ? 'selected' : '' %>>
+                  <%= department.VALORES %>
+                </option>
+              <% }) %>
             </select>
           </div>
 
@@ -204,42 +356,66 @@
               id="complement"
               placeholder="Escribir la dirección completa..."
               class="formbold-form-input"
-            ></textarea>
+            ><%= (data && data.complement) ? data.complement : '' %></textarea>
           </div>
 
           <h2 class="formbold-form-title subtitle">Llaves de Seguridad</h2>
 
           <div class="formbold-input-group">
             <label for="public_key" class="formbold-form-label"> Clave Publica </label>
-            <input
-              type="text"
-              name="public_key"
-              id="public_key"
-              placeholder="Ingresar la clave publica"
-              class="formbold-form-input"
-            />
+
+            <div class="ui fluid large action input">
+              <input
+                type="text"
+                name="public_key"
+                id="public_key"
+                value="<%= (data && data.public_key) ? data.public_key : '' %>"
+                placeholder="Ingresar la clave publica"
+                class="formbold-form-input"
+              />
+              <button class="ui violet right labeled icon button btn-copy">
+                <i class="copy icon"></i>
+                Copy
+              </button>
+            </div>
           </div>
 
           <div class="formbold-input-group">
             <label for="api_key" class="formbold-form-label">Llave API </label>
-            <input
-              type="text"
-              name="api_key"
-              id="api_key"
-              placeholder="Ingresar la clave api"
-              class="formbold-form-input"
-            />
+
+            <div class="ui fluid large action input">
+              <input
+                type="text"
+                name="api_key"
+                id="api_key"
+                value="<%= (data && data.api_key) ? data.api_key : '' %>"
+                placeholder="Ingresar la clave api"
+                class="formbold-form-input"
+              />
+              <button class="ui violet right labeled icon button btn-copy">
+                <i class="copy icon"></i>
+                Copy
+              </button>
+            </div>
           </div>
 
           <div class="formbold-input-group">
             <label for="private_key" class="formbold-form-label"> Clave Privada </label>
-            <input
-              type="text"
-              name="private_key"
-              id="private_key"
-              placeholder="Ingresar la clave privada"
-              class="formbold-form-input"
-            />
+
+            <div class="ui fluid large action input">
+              <input
+                type="text"
+                name="private_key"
+                id="private_key"
+                value="<%= (data && data.private_key) ? data.private_key : '' %>"
+                placeholder="Ingresar la clave privada"
+                class="formbold-form-input"
+              />
+              <button class="ui violet right labeled icon button btn-copy">
+                <i class="copy icon"></i>
+                Copy
+              </button>
+            </div>
           </div>
 
           <h2 class="formbold-form-title subtitle">Configuración SMTP</h2>
@@ -288,40 +464,105 @@
 
     <script>
       $(document).ready(function() {
-        $('.select-activity').select2({
-          placeholder: "Seleccionar actividad",
-          allowClear: true,
-          width: '100%'
-        });
+        $('.ui.dropdown').dropdown();
       });
     </script>
 
     <script>
-      let municipalities = [];
-      municipalities = <%- JSON.stringify(municipalities) %>;
+      document.addEventListener('DOMContentLoaded', () => {
+        // Inicializar dropdowns de Semantic UI
+        $('.ui.dropdown').dropdown();
 
-      const departmentSelect = document.getElementById('department');
-      const municipalitySelect = document.getElementById('municipality');
+        const districts = <%- JSON.stringify(districts || []) %>;
+        const municipalities = <%- JSON.stringify(municipalities || []) %>;
+        const departments = <%- JSON.stringify(departments || []) %>;
 
-      departmentSelect.addEventListener('change', () => {
-        const selectedDeptoCode = departmentSelect.value;
+        const districtSelect = document.getElementById('district');
+        const municipalitySelect = document.getElementById('municipality');
+        const departmentSelect = document.getElementById('department');
 
-        const filteredMunicipalities = municipalities.filter(
-          m => m.DEPTO === selectedDeptoCode
-        );
+        function resetSelect(selectEl, placeholderText) {
+          selectEl.innerHTML = '';
+          const opt = document.createElement('option');
+          opt.value = '';
+          opt.disabled = true;
+          opt.selected = true;
+          opt.hidden = true;
+          opt.textContent = placeholderText;
+          selectEl.appendChild(opt);
+          selectEl.disabled = false;
 
-        municipalitySelect.innerHTML = '<option value="" disabled selected hidden>Seleccionar</option>';
+          $(selectEl).dropdown('clear');
+          $(selectEl).dropdown('refresh');
+        }
 
-        filteredMunicipalities.forEach(municipio => {
-          const option = document.createElement('option');
-          option.value = municipio.CODIGO;
-          option.textContent = municipio.VALORES;
-          municipalitySelect.appendChild(option);
+        // Inicializar placeholders
+        resetSelect(municipalitySelect, 'Seleccionar el distrito');
+        resetSelect(departmentSelect, 'Seleccionar el distrito');
+
+        districtSelect.addEventListener('change', () => {
+          const selectedDistrictName = districtSelect.value;
+
+          if (!selectedDistrictName) {
+            resetSelect(municipalitySelect, 'Seleccionar el distrito');
+            resetSelect(departmentSelect, 'Seleccionar el distrito');
+            return;
+          }
+
+          const selectedDistrict = districts.find(d => String(d.DISTRITO) === String(selectedDistrictName));
+
+          if (!selectedDistrict) {
+            console.warn('Distrito seleccionado no encontrado:', selectedDistrictName);
+            resetSelect(municipalitySelect, 'Seleccionar el distrito');
+            resetSelect(departmentSelect, 'Seleccionar el distrito');
+            return;
+          }
+
+          // MUNICIPIO
+          const selectedMunicipality = municipalities.find(
+            m => String(m.CODIGO).trim() === String(selectedDistrict.CodMuni).trim() && String(m.DEPTO).trim() === String(selectedDistrict.CodDepto).trim()
+          );
+
+          if (!selectedMunicipality) {
+            resetSelect(municipalitySelect, 'No encontrado');
+          } else {
+            municipalitySelect.innerHTML = '';
+            const muniOption = document.createElement('option');
+            muniOption.value = selectedMunicipality.CODIGO;
+            muniOption.textContent = selectedMunicipality.VALORES || selectedMunicipality.CODIGO;
+            muniOption.selected = true;
+            municipalitySelect.appendChild(muniOption);
+            //municipalitySelect.disabled = true;
+
+            //$(municipalitySelect).dropdown('clear');
+            $(municipalitySelect).dropdown('refresh');
+          }
+
+          // DEPARTAMENTO
+          const selectedDepartment = departments.find(
+            dep => String(dep.CODIGO).trim() === String(selectedDistrict.CodDepto).trim()
+          );
+
+          if (!selectedDepartment) {
+            resetSelect(departmentSelect, 'No encontrado');
+          } else {
+            departmentSelect.innerHTML = '';
+            const deptOption = document.createElement('option');
+            deptOption.value = selectedDepartment.CODIGO;
+            deptOption.textContent = selectedDepartment.VALORES || selectedDepartment.CODIGO;
+            deptOption.selected = true;
+            departmentSelect.appendChild(deptOption);
+            //departmentSelect.disabled = true;
+
+            //$(departmentSelect).dropdown('clear');
+            $(departmentSelect).dropdown('refresh');
+          }
         });
-
-        municipalitySelect.disabled = false;
       });
     </script>
+
+    <!-- Archivos JS -->
+    <script src="/js/copiarContenido.js"></script>
 
     <script>
       document.querySelectorAll('input[name="ambient"]').forEach(radio => {
